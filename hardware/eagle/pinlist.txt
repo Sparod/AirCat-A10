@@ -1,0 +1,697 @@
+Pinlist
+
+Exported from aircat.brd at 26/04/2014 02:12:46
+
+EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
+
+Part     Pad      Net
+
+C1       1        VOUT1+
+         2        N$2
+
+C2       1        VOUT1-
+         2        N$1
+
+C3       1        N$3
+         2        N$4
+
+C4       1        AOP_IN_A-
+         2        AOP_OUT_A
+
+C5       1        AOP_IN_A+
+         2        GND
+
+C6       1        VOUT2+
+         2        N$6
+
+C7       1        VOUT2-
+         2        N$5
+
+C8       1        N$7
+         2        N$8
+
+C9       1        AOP_IN_B-
+         2        AOP_OUT_B
+
+C10      1        AOP_IN_B+
+         2        GND
+
+C11      1        VOUT3+
+         2        N$10
+
+C12      1        VOUT3-
+         2        N$9
+
+C13      1        N$11
+         2        N$12
+
+C14      1        AOP_IN_C-
+         2        AOP_OUT_C
+
+C15      1        AOP_IN_C+
+         2        GND
+
+C16      1        VOUT4+
+         2        N$14
+
+C17      1        VOUT4-
+         2        N$13
+
+C18      1        N$15
+         2        N$16
+
+C19      1        AOP_IN_D-
+         2        AOP_OUT_D
+
+C20      1        AOP_IN_D+
+         2        GND
+
+C21      1        VOUT5+
+         2        N$18
+
+C22      1        VOUT5-
+         2        N$17
+
+C23      1        N$19
+         2        N$20
+
+C24      1        AOP_IN_E-
+         2        AOP_OUT_E
+
+C25      1        AOP_IN_E+
+         2        GND
+
+C26      1        VOUT6+
+         2        N$22
+
+C27      1        VOUT6-
+         2        N$21
+
+C28      1        N$23
+         2        N$24
+
+C29      1        AOP_IN_F-
+         2        AOP_OUT_F
+
+C30      1        AOP_IN_F+
+         2        GND
+
+C31      1        +3V3
+         2        GND
+
+C32      1        +3V3
+         2        GND
+
+C33      1        +5V
+         2        GND
+
+C34      1        +5V
+         2        GND
+
+C35      1        +5V
+         2        GND
+
+C36      1        +5V
+         2        GND
+
+C37      1        +3V3
+         2        GND
+
+C38      1        +5V
+         2        GND
+
+C39      1        AREFAD1
+         2        GND
+
+C40      1        VREFAD2
+         2        GND
+
+C41      1        VCOMDA
+         2        GND
+
+C42      1        VCOMAD
+         2        GND
+
+C43      1        +5V
+         2        GND
+
+C44      1        GND
+         2        -5V
+
+C45      1        +5V
+         2        GND
+
+C46      1        GND
+         2        -5V
+
+C47      1        +5V
+         2        GND
+
+C48      1        -5V
+         2        GND
+
+C49      1        N$34
+         2        N$35
+
+C50      1        +5V
+         2        GND
+
+C51      1        GND
+         2        -5V
+
+C52      1        ANALOG_IN_1
+         2        N$25
+
+C53      1        AOP_IN_I-
+         2        AOP_OUT_I
+
+C54      1        GND
+         2        VCOMAD
+
+C55      1        GND
+         2        VIN1+
+
+C56      1        GND
+         2        VIN1-
+
+C57      1        ANALOG_IN_2
+         2        N$26
+
+C58      1        AOP_IN_J-
+         2        AOP_OUT_J
+
+C59      1        ANALOG_IN_3
+         2        N$27
+
+C60      1        GND
+         2        VIN2+
+
+C61      1        GND
+         2        VIN2-
+
+C62      1        AOP_IN_K-
+         2        AOP_OUT_K
+
+C63      1        GND
+         2        VIN3+
+
+C64      1        GND
+         2        VIN3-
+
+C65      1        VOUT7+
+         2        N$29
+
+C66      1        VOUT7-
+         2        N$28
+
+C67      1        N$30
+         2        N$31
+
+C68      1        AOP_IN_G-
+         2        AOP_OUT_G
+
+C69      1        AOP_IN_G+
+         2        GND
+
+C70      1        VOUT8+
+         2        N$33
+
+C71      1        VOUT8-
+         2        N$32
+
+C72      1        N$36
+         2        N$37
+
+C73      1        AOP_IN_H-
+         2        AOP_OUT_H
+
+C74      1        AOP_IN_H+
+         2        GND
+
+C75      1        GND
+         2        -5V
+
+C76      1        VIN4-6
+         2        GND
+
+C77      1        +5V
+         2        GND
+
+C78      1        +3V3
+         2        GND
+
+CON1     3-1               *** unconnected ***
+         3-10     SCKI
+         3-11              *** unconnected ***
+         3-12     BCKAD/DA
+         3-13              *** unconnected ***
+         3-14     LRCKAD/DA
+         3-15              *** unconnected ***
+         3-16     DIN1
+         3-17              *** unconnected ***
+         3-18     DIN3(N/C)
+         3-19              *** unconnected ***
+         3-2      GND
+         3-20     DIN4(N/C)
+         3-21              *** unconnected ***
+         3-22     DOUT1
+         3-23              *** unconnected ***
+         3-24              *** unconnected ***
+         3-25              *** unconnected ***
+         3-26              *** unconnected ***
+         3-27              *** unconnected ***
+         3-28              *** unconnected ***
+         3-29              *** unconnected ***
+         3-3               *** unconnected ***
+         3-30              *** unconnected ***
+         3-31              *** unconnected ***
+         3-32              *** unconnected ***
+         3-33              *** unconnected ***
+         3-34              *** unconnected ***
+         3-35              *** unconnected ***
+         3-36              *** unconnected ***
+         3-37              *** unconnected ***
+         3-38              *** unconnected ***
+         3-39              *** unconnected ***
+         3-4      GND
+         3-40              *** unconnected ***
+         3-5               *** unconnected ***
+         3-6               *** unconnected ***
+         3-7               *** unconnected ***
+         3-8               *** unconnected ***
+         3-9               *** unconnected ***
+         D-1      +5V
+         D-10              *** unconnected ***
+         D-11              *** unconnected ***
+         D-12              *** unconnected ***
+         D-13              *** unconnected ***
+         D-14              *** unconnected ***
+         D-15              *** unconnected ***
+         D-16              *** unconnected ***
+         D-17              *** unconnected ***
+         D-18              *** unconnected ***
+         D-19              *** unconnected ***
+         D-2      GND
+         D-20              *** unconnected ***
+         D-21              *** unconnected ***
+         D-22              *** unconnected ***
+         D-23              *** unconnected ***
+         D-24              *** unconnected ***
+         D-25              *** unconnected ***
+         D-26              *** unconnected ***
+         D-27              *** unconnected ***
+         D-28              *** unconnected ***
+         D-29              *** unconnected ***
+         D-3      +3V3
+         D-30              *** unconnected ***
+         D-31              *** unconnected ***
+         D-32              *** unconnected ***
+         D-33              *** unconnected ***
+         D-34              *** unconnected ***
+         D-35              *** unconnected ***
+         D-36              *** unconnected ***
+         D-37              *** unconnected ***
+         D-38              *** unconnected ***
+         D-39              *** unconnected ***
+         D-4      GND
+         D-40              *** unconnected ***
+         D-5               *** unconnected ***
+         D-6               *** unconnected ***
+         D-7               *** unconnected ***
+         D-8               *** unconnected ***
+         D-9               *** unconnected ***
+
+DIN2     TP       DIN2
+
+DIN3     TP       DIN3
+
+DIN4     TP       DIN4
+
+DOUT2    TP       DOUT2
+
+DOUT3    TP       DOUT3
+
+MC       TP       MC
+
+MDI      TP       MDI
+
+MDO      TP       MDO
+
+MODE     TP       MODE
+
+MS       TP       MS
+
+OVF      TP       OVF
+
+R1       1        N$2
+         2        N$3
+
+R2       1        N$1
+         2        N$4
+
+R3       1        N$3
+         2        AOP_IN_A-
+
+R4       1        N$4
+         2        AOP_IN_A+
+
+R5       1        N$3
+         2        AOP_OUT_A
+
+R6       1        AOP_OUT_A
+         2        ANALOG_OUT_1
+
+R7       1        GND
+         2        N$4
+
+R8       1        N$6
+         2        N$7
+
+R9       1        N$5
+         2        N$8
+
+R10      1        N$7
+         2        AOP_IN_B-
+
+R11      1        N$8
+         2        AOP_IN_B+
+
+R12      1        N$7
+         2        AOP_OUT_B
+
+R13      1        AOP_OUT_B
+         2        ANALOG_OUT_2
+
+R14      1        GND
+         2        N$8
+
+R15      1        N$10
+         2        N$11
+
+R16      1        N$9
+         2        N$12
+
+R17      1        N$11
+         2        AOP_IN_C-
+
+R18      1        N$12
+         2        AOP_IN_C+
+
+R19      1        N$11
+         2        AOP_OUT_C
+
+R20      1        AOP_OUT_C
+         2        ANALOG_OUT_3
+
+R21      1        GND
+         2        N$12
+
+R22      1        N$14
+         2        N$15
+
+R23      1        N$13
+         2        N$16
+
+R24      1        N$15
+         2        AOP_IN_D-
+
+R25      1        N$16
+         2        AOP_IN_D+
+
+R26      1        N$15
+         2        AOP_OUT_D
+
+R27      1        AOP_OUT_D
+         2        ANALOG_OUT_4
+
+R28      1        GND
+         2        N$16
+
+R29      1        N$18
+         2        N$19
+
+R30      1        N$17
+         2        N$20
+
+R31      1        N$19
+         2        AOP_IN_E-
+
+R32      1        N$20
+         2        AOP_IN_E+
+
+R33      1        N$19
+         2        AOP_OUT_E
+
+R34      1        AOP_OUT_E
+         2        ANALOG_OUT_5
+
+R35      1        GND
+         2        N$20
+
+R36      1        N$22
+         2        N$23
+
+R37      1        N$21
+         2        N$24
+
+R38      1        N$23
+         2        AOP_IN_F-
+
+R39      1        N$24
+         2        AOP_IN_F+
+
+R40      1        N$23
+         2        AOP_OUT_F
+
+R41      1        AOP_OUT_F
+         2        ANALOG_OUT_6
+
+R42      1        GND
+         2        N$24
+
+R43      1        N$25
+         2        AOP_IN_I-
+
+R44      1        AOP_IN_I-
+         2        VIN1+
+
+R45      1        AOP_OUT_I
+         2        VIN1+
+
+R46      1        N$26
+         2        AOP_IN_J-
+
+R47      1        AOP_IN_J-
+         2        VIN2+
+
+R48      1        AOP_OUT_J
+         2        VIN2+
+
+R49      1        N$27
+         2        AOP_IN_K-
+
+R50      1        AOP_IN_K-
+         2        VIN3+
+
+R51      1        AOP_OUT_K
+         2        VIN3+
+
+R52      1        N$29
+         2        N$30
+
+R53      1        N$28
+         2        N$31
+
+R54      1        N$30
+         2        AOP_IN_G-
+
+R55      1        N$31
+         2        AOP_IN_G+
+
+R56      1        N$30
+         2        AOP_OUT_G
+
+R57      1        AOP_OUT_G
+         2        ANALOG_OUT_7
+
+R58      1        GND
+         2        N$31
+
+R59      1        N$33
+         2        N$36
+
+R60      1        N$32
+         2        N$37
+
+R61      1        N$36
+         2        AOP_IN_H-
+
+R62      1        N$37
+         2        AOP_IN_H+
+
+R63      1        N$36
+         2        AOP_OUT_H
+
+R64      1        AOP_OUT_H
+         2        ANALOG_OUT_8
+
+R65      1        GND
+         2        N$37
+
+RST      1        +3V3
+         2        +3V3
+
+SV1      1        GND
+         2        ANALOG_IN_3
+         3        GND
+         4        ANALOG_IN_2
+         5        GND
+         6        ANALOG_IN_1
+
+SV2      1        GND
+         10       ANALOG_OUT_4
+         11       GND
+         12       ANALOG_OUT_3
+         13       GND
+         14       ANALOG_OUT_2
+         15       GND
+         16       ANALOG_OUT_1
+         2        ANALOG_OUT_8
+         3        GND
+         4        ANALOG_OUT_7
+         5        GND
+         6        ANALOG_OUT_6
+         7        GND
+         8        ANALOG_OUT_5
+         9        GND
+
+TP1      TP       -5V
+
+TP2      TP       +5V
+
+TP3      TP       GND
+
+TP4      TP       +3V3
+
+U1       1        VCOMAD
+         10       DOUT3
+         11       GND
+         12       +3V3
+         13       ZERO
+         14       +5V
+         15       VCOMDA
+         16       GND
+         17       VOUT8+
+         18       VOUT8-
+         19       VOUT7+
+         2        GND
+         20       VOUT7-
+         21       VOUT6+
+         22       VOUT6-
+         23       VOUT5+
+         24       VOUT5-
+         25       VOUT4+
+         26       VOUT4-
+         27       VOUT3+
+         28       VOUT3-
+         29       VOUT2+
+         3        +5V
+         30       VOUT2-
+         31       VOUT1+
+         32       VOUT1-
+         33       GND
+         34       +5V
+         35       LRCKAD/DA
+         36       BCKAD/DA
+         37       DIN1
+         38       DIN2
+         39       DIN3
+         4        +3V3
+         40       DIN4
+         41       SCKI
+         42       MC
+         43       MDI
+         44       MDO
+         45       MS
+         46       +3V3
+         47       GND
+         48       MODE
+         49       +5V
+         5        OVF
+         50       GND
+         51       VIN1-
+         52       VIN1+
+         53       VIN2-
+         54       VIN2+
+         55       VIN3-
+         56       VIN3+
+         57       VIN4-6
+         58       VIN4-6
+         59       AREFAD1
+         6        LRCKAD/DA
+         60       VREFAD2
+         61       VIN4-6
+         62       VIN4-6
+         63       VIN4-6
+         64       VIN4-6
+         65       GND
+         7        BCKAD/DA
+         8        DOUT1
+         9        DOUT2
+
+U2       1        AOP_OUT_A
+         10       AOP_IN_C+
+         11       -5V
+         12       AOP_IN_D+
+         13       AOP_IN_D-
+         14       AOP_OUT_D
+         2        AOP_IN_A-
+         3        AOP_IN_A+
+         4        +5V
+         5        AOP_IN_B+
+         6        AOP_IN_B-
+         7        AOP_OUT_B
+         8        AOP_OUT_C
+         9        AOP_IN_C-
+
+U3       1        AOP_OUT_E
+         10       AOP_IN_G+
+         11       -5V
+         12       AOP_IN_H+
+         13       AOP_IN_H-
+         14       AOP_OUT_H
+         2        AOP_IN_E-
+         3        AOP_IN_E+
+         4        +5V
+         5        AOP_IN_F+
+         6        AOP_IN_F-
+         7        AOP_OUT_F
+         8        AOP_OUT_G
+         9        AOP_IN_G-
+
+U4       1        AOP_OUT_I
+         10       VCOMAD
+         11       -5V
+         12       GND
+         13       AOP_OUT_L
+         14       AOP_OUT_L
+         2        AOP_IN_I-
+         3        VCOMAD
+         4        +5V
+         5        VCOMAD
+         6        AOP_IN_J-
+         7        AOP_OUT_J
+         8        AOP_OUT_K
+         9        AOP_IN_K-
+
+U6       1        +5V
+         2        N$34
+         3        GND
+         4        N$35
+         5        -5V
+         6                 *** unconnected ***
+         7                 *** unconnected ***
+         8        +5V
+
+ZERO     TP       ZERO
+

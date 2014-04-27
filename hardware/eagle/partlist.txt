@@ -1,6 +1,6 @@
 Partlist
 
-Exported from aircat.brd at 24/04/2014 01:29:52
+Exported from aircat.brd at 26/04/2014 02:12:39
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
@@ -83,9 +83,21 @@ C72      3300pF                             C0603                     rcl       
 C73      680pF                              C0603                     rcl                            (-0.9375 -0.65)       R270
 C74      680pF                              C0603                     rcl                            (-0.8125 -0.65)       R270
 C75      10µF                               CAPAE430X610N             Panasonic-EEEFK_EEEFP          (-0.925 0.8875)       R90
+C76      0.001-1µF                          C0603                     rcl                            (-0.0875 0.69375)     MR180
 C77      100nF                              C0603                     rcl                            (-0.66875 1.06875)    R180
 C78      100nF                              C0603                     rcl                            (-0.45625 1.06875)    R180
 CON1     A10_OLINUXINO_LIME_SHIELD_TEMPLATE A10_OLINUXINO_LIME_SHIELD A10_OLIMEXINO_LIME_SHIELD_edit (0 0)                 R0
+DIN2     -5V                                TP10SQ                    testpad                        (0.46875 0.35625)     MR180
+DIN3     -5V                                TP10SQ                    testpad                        (0.39375 0.35625)     MR180
+DIN4     -5V                                TP10SQ                    testpad                        (0.39375 0.41875)     MR180
+DOUT2    -5V                                TP10SQ                    testpad                        (-0.45625 0.31875)    MR0
+DOUT3    -5V                                TP10SQ                    testpad                        (-0.3875 0.31875)     MR0
+MC       -5V                                TP10SQ                    testpad                        (0.46875 0.41875)     MR0
+MDI      -5V                                TP10SQ                    testpad                        (0.39375 0.48125)     MR0
+MDO      -5V                                TP10SQ                    testpad                        (0.46875 0.48125)     MR0
+MODE     -5V                                TP10SQ                    testpad                        (0.46875 0.54375)     MR0
+MS       -5V                                TP10SQ                    testpad                        (0.39375 0.54375)     MR0
+OVF      -5V                                TP10SQ                    testpad                        (-0.39375 0.479)      MR0
 R1       7.5k                               R0603                     rcl                            (0.8125 -0.2)         R270
 R2       7.5k                               R0603                     rcl                            (0.9375 -0.2)         R270
 R3       360                                R0603                     rcl                            (0.8125 -0.5)         R270
@@ -151,8 +163,9 @@ R62      360                                R0603                     rcl       
 R63      5.6k                               R0603                     rcl                            (-0.9375 -0.8)        R270
 R64      47                                 R0603                     rcl                            (-0.8125 -0.8)        R270
 R65      5.6k                               R0603                     rcl                            (-0.8125 -0.35)       R90
-SV1                                         MA03-2                    con-lstb                       (0.9375 1.0125)       R90
-SV2      AUDIO OUTPUT                       MA08-2                    con-lstb                       (-0.6 -1.05)          R0
+RST      0 Ohm                              R0603                     rcl                            (-0.45625 0.5125)     MR90
+SV1                                         MA03-2                    con-lstb-without-pin-numbers   (0.9375 1.0125)       R90
+SV2                                         MA08-2                    con-lstb-without-pin-numbers   (-0.6 -1.05)          R0
 TP1      -5V                                B1,27                     testpad                        (-0.975 1.075)        R0
 TP2      +5V                                B1,27                     testpad                        (-0.875 1.075)        R0
 TP3      GND                                B1,27                     testpad                        (-0.775 1.075)        R0
@@ -162,3 +175,4 @@ U2       OPA1644AIPW                        SOP65P640X120-14N         OPA1644   
 U3       OPA1644AIPW                        SOP65P640X120-14N         OPA1644                        (-0.5 -0.38125)       MR0
 U4       OPA1644AIPW                        SOP65P640X120-14N         OPA1644                        (0.75 0.45)           MR270
 U6       LM2662M                            SOIC127P620X175-8N        TI-LM2662M                     (-0.85 0.9)           MR0
+ZERO     -5V                                TP10SQ                    testpad                        (-0.325 0.31875)      MR0
