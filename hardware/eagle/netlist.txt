@@ -1,6 +1,6 @@
 Netlist
 
-Exported from aircat.brd at 26/04/2014 02:12:30
+Exported from aircat.brd at 27/04/2014 07:01:10
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
@@ -11,12 +11,16 @@ Net      Part     Pad
          C37      1
          C78      1
          CON1     D-3
+         MODE     1
+         MODE     2
+         R66      2
          RST      1
          RST      2
          TP4      TP
          U1       12
          U1       4
          U1       46
+         U1       48
 
 +5V      C33      1
          C34      1
@@ -234,12 +238,8 @@ DIN2     DIN2     TP
 DIN3     DIN3     TP
          U1       39
 
-DIN3(N/C) CON1     3-18
-
 DIN4     DIN4     TP
          U1       40
-
-DIN4(N/C) CON1     3-20
 
 DOUT1    CON1     3-22
          U1       8
@@ -300,6 +300,7 @@ GND      C10      2
          R42      1
          R58      1
          R65      1
+         R66      1
          R7       1
          SV1      1
          SV1      3
@@ -327,19 +328,16 @@ LRCKAD/DA CON1     3-14
          U1       35
          U1       6
 
-MC       MC       TP
+MC       CON1     3-28
          U1       42
 
-MDI      MDI      TP
+MDI      CON1     3-30
          U1       43
 
-MDO      MDO      TP
+MDO      CON1     3-32
          U1       44
 
-MODE     MODE     TP
-         U1       48
-
-MS       MS       TP
+MS       CON1     3-26
          U1       45
 
 N$1      C2       2

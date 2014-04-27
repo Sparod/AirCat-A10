@@ -1,6 +1,6 @@
 Partlist
 
-Exported from aircat.brd at 26/04/2014 02:12:39
+Exported from aircat.brd at 27/04/2014 07:01:17
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
@@ -54,23 +54,23 @@ C43      1µF                                C0603                     rcl       
 C44      1µF                                C0603                     rcl                            (0.275 -0.38125)      MR180
 C45      1µF                                C0603                     rcl                            (-0.275 -0.38125)     MR180
 C46      1µF                                C0603                     rcl                            (-0.725 -0.38125)     MR180
-C47      1µF                                C0603                     rcl                            (0.75 0.7)            MR90
+C47      1µF                                C0603                     rcl                            (0.8 0.8)             MR90
 C48      10µF                               C0805                     rcl                            (-0.8875 0.7375)      MR180
 C49      10µF                               C0805                     rcl                            (-0.65 0.875)         MR270
 C50      10µF                               C0805                     rcl                            (-0.9 1.05)           MR180
-C51      1µF                                C0603                     rcl                            (0.75 0.2)            MR90
-C52      10µF 16V                           C0603                     rcl                            (0.85 0.7)            R180
-C53      2.2nF                              C0603                     rcl                            (0.7 0.7)             R180
-C54      0.1µF                              C0603                     rcl                            (0.65 0.7)            MR270
-C55      22nF                               C0603                     rcl                            (0.475 0.65)          R270
+C51      1µF                                C0603                     rcl                            (0.8 0.3)             MR90
+C52      10µF 16V                           C0603                     rcl                            (0.9 0.8)             R0
+C53      2.2nF                              C0603                     rcl                            (0.75 0.8)            R180
+C54      0.1µF                              C0603                     rcl                            (0.7 0.8)             MR270
+C55      22nF                               C0603                     rcl                            (0.525 0.75)          R270
 C56      22nF                               C0603                     rcl                            (0.25625 0.825)       R270
-C57      10µF 16V                           C0603                     rcl                            (0.85 0.5)            R180
-C58      2.2nF                              C0603                     rcl                            (0.7 0.5)             R180
-C59      10µF 16V                           C0603                     rcl                            (0.85 0.3)            R180
-C60      22nF                               C0603                     rcl                            (0.475 0.5)           R270
+C57      10µF 16V                           C0603                     rcl                            (0.9 0.6)             R180
+C58      2.2nF                              C0603                     rcl                            (0.75 0.6)            R180
+C59      10µF 16V                           C0603                     rcl                            (0.9 0.4)             R180
+C60      22nF                               C0603                     rcl                            (0.525 0.6)           R270
 C61      22nF                               C0603                     rcl                            (0.16875 0.825)       R270
-C62      2.2nF                              C0603                     rcl                            (0.7 0.3)             R180
-C63      22nF                               C0603                     rcl                            (0.475 0.3)           R270
+C62      2.2nF                              C0603                     rcl                            (0.75 0.4)            R180
+C63      22nF                               C0603                     rcl                            (0.53125 0.4)         R90
 C64      22nF                               C0603                     rcl                            (0.08125 0.825)       R270
 C65      10µF 16V                           C0603                     rcl                            (-0.6875 -0.05)       R270
 C66      10µF 16V                           C0603                     rcl                            (-0.5625 -0.05)       R270
@@ -87,16 +87,12 @@ C76      0.001-1µF                          C0603                     rcl       
 C77      100nF                              C0603                     rcl                            (-0.66875 1.06875)    R180
 C78      100nF                              C0603                     rcl                            (-0.45625 1.06875)    R180
 CON1     A10_OLINUXINO_LIME_SHIELD_TEMPLATE A10_OLINUXINO_LIME_SHIELD A10_OLIMEXINO_LIME_SHIELD_edit (0 0)                 R0
-DIN2     -5V                                TP10SQ                    testpad                        (0.46875 0.35625)     MR180
-DIN3     -5V                                TP10SQ                    testpad                        (0.39375 0.35625)     MR180
-DIN4     -5V                                TP10SQ                    testpad                        (0.39375 0.41875)     MR180
-DOUT2    -5V                                TP10SQ                    testpad                        (-0.45625 0.31875)    MR0
-DOUT3    -5V                                TP10SQ                    testpad                        (-0.3875 0.31875)     MR0
-MC       -5V                                TP10SQ                    testpad                        (0.46875 0.41875)     MR0
-MDI      -5V                                TP10SQ                    testpad                        (0.39375 0.48125)     MR0
-MDO      -5V                                TP10SQ                    testpad                        (0.46875 0.48125)     MR0
-MODE     -5V                                TP10SQ                    testpad                        (0.46875 0.54375)     MR0
-MS       -5V                                TP10SQ                    testpad                        (0.39375 0.54375)     MR0
+DIN2                                        TP10SQ                    testpad                        (0.425 0.44375)       MR180
+DIN3                                        TP10SQ                    testpad                        (0.3625 0.44375)      MR180
+DIN4                                        TP10SQ                    testpad                        (0.3 0.44375)         MR180
+DOUT2                                       TP10SQ                    testpad                        (-0.45625 0.31875)    MR0
+DOUT3                                       TP10SQ                    testpad                        (-0.3875 0.31875)     MR0
+MODE     0 Ohm                              R0603                     rcl                            (0.35 0.6)            MR0
 OVF      -5V                                TP10SQ                    testpad                        (-0.39375 0.479)      MR0
 R1       7.5k                               R0603                     rcl                            (0.8125 -0.2)         R270
 R2       7.5k                               R0603                     rcl                            (0.9375 -0.2)         R270
@@ -140,15 +136,15 @@ R39      360                                R0603                     rcl       
 R40      5.6k                               R0603                     rcl                            (-0.4375 -0.8)        R270
 R41      47                                 R0603                     rcl                            (-0.3125 -0.8)        R270
 R42      5.6k                               R0603                     rcl                            (-0.3125 -0.35)       R90
-R43      3k                                 R0603                     rcl                            (0.85 0.6)            R180
-R44      1.5k                               R0603                     rcl                            (0.7 0.6)             R180
-R45      1.5k                               R0603                     rcl                            (0.575 0.65)          R270
-R46      3k                                 R0603                     rcl                            (0.85 0.4)            R180
-R47      1.5k                               R0603                     rcl                            (0.7 0.4)             R180
-R48      1.5k                               R0603                     rcl                            (0.575 0.5)           R270
-R49      3k                                 R0603                     rcl                            (0.85 0.2)            R180
-R50      1.5k                               R0603                     rcl                            (0.7 0.2)             R180
-R51      1.5k                               R0603                     rcl                            (0.575 0.3)           R270
+R43      3k                                 R0603                     rcl                            (0.9 0.7)             R180
+R44      1.5k                               R0603                     rcl                            (0.75 0.7)            R180
+R45      1.5k                               R0603                     rcl                            (0.625 0.75)          R270
+R46      3k                                 R0603                     rcl                            (0.9 0.5)             R180
+R47      1.5k                               R0603                     rcl                            (0.75 0.5)            R180
+R48      1.5k                               R0603                     rcl                            (0.625 0.6)           R270
+R49      3k                                 R0603                     rcl                            (0.9 0.3)             R180
+R50      1.5k                               R0603                     rcl                            (0.75 0.3)            R180
+R51      1.5k                               R0603                     rcl                            (0.625 0.4)           R270
 R52      7.5k                               R0603                     rcl                            (-0.6875 -0.2)        R270
 R53      7.5k                               R0603                     rcl                            (-0.5625 -0.2)        R270
 R54      360                                R0603                     rcl                            (-0.6875 -0.5)        R270
@@ -163,6 +159,7 @@ R62      360                                R0603                     rcl       
 R63      5.6k                               R0603                     rcl                            (-0.9375 -0.8)        R270
 R64      47                                 R0603                     rcl                            (-0.8125 -0.8)        R270
 R65      5.6k                               R0603                     rcl                            (-0.8125 -0.35)       R90
+R66      220k                               R0603                     rcl                            (0.35 0.7)            MR0
 RST      0 Ohm                              R0603                     rcl                            (-0.45625 0.5125)     MR90
 SV1                                         MA03-2                    con-lstb-without-pin-numbers   (0.9375 1.0125)       R90
 SV2                                         MA08-2                    con-lstb-without-pin-numbers   (-0.6 -1.05)          R0
@@ -173,6 +170,6 @@ TP4      +3V3                               B1,27                     testpad   
 U1       PCM3168APAP                        QFP50P1200X1200X120-65N   pcm3168                        (0 0.4)               R0
 U2       OPA1644AIPW                        SOP65P640X120-14N         OPA1644                        (0.5 -0.38125)        MR0
 U3       OPA1644AIPW                        SOP65P640X120-14N         OPA1644                        (-0.5 -0.38125)       MR0
-U4       OPA1644AIPW                        SOP65P640X120-14N         OPA1644                        (0.75 0.45)           MR270
+U4       OPA1644AIPW                        SOP65P640X120-14N         OPA1644                        (0.8 0.55)            MR270
 U6       LM2662M                            SOIC127P620X175-8N        TI-LM2662M                     (-0.85 0.9)           MR0
-ZERO     -5V                                TP10SQ                    testpad                        (-0.325 0.31875)      MR0
+ZERO                                        TP10SQ                    testpad                        (-0.325 0.31875)      MR0

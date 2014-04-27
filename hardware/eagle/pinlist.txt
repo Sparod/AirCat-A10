@@ -1,6 +1,6 @@
 Pinlist
 
-Exported from aircat.brd at 26/04/2014 02:12:46
+Exported from aircat.brd at 27/04/2014 07:01:24
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
@@ -249,23 +249,23 @@ CON1     3-1               *** unconnected ***
          3-15              *** unconnected ***
          3-16     DIN1
          3-17              *** unconnected ***
-         3-18     DIN3(N/C)
+         3-18              *** unconnected ***
          3-19              *** unconnected ***
          3-2      GND
-         3-20     DIN4(N/C)
+         3-20              *** unconnected ***
          3-21              *** unconnected ***
          3-22     DOUT1
          3-23              *** unconnected ***
          3-24              *** unconnected ***
          3-25              *** unconnected ***
-         3-26              *** unconnected ***
+         3-26     MS
          3-27              *** unconnected ***
-         3-28              *** unconnected ***
+         3-28     MC
          3-29              *** unconnected ***
          3-3               *** unconnected ***
-         3-30              *** unconnected ***
+         3-30     MDI
          3-31              *** unconnected ***
-         3-32              *** unconnected ***
+         3-32     MDO
          3-33              *** unconnected ***
          3-34              *** unconnected ***
          3-35              *** unconnected ***
@@ -331,15 +331,8 @@ DOUT2    TP       DOUT2
 
 DOUT3    TP       DOUT3
 
-MC       TP       MC
-
-MDI      TP       MDI
-
-MDO      TP       MDO
-
-MODE     TP       MODE
-
-MS       TP       MS
+MODE     1        +3V3
+         2        +3V3
 
 OVF      TP       OVF
 
@@ -538,6 +531,9 @@ R64      1        AOP_OUT_H
 R65      1        GND
          2        N$37
 
+R66      1        GND
+         2        +3V3
+
 RST      1        +3V3
          2        +3V3
 
@@ -615,7 +611,7 @@ U1       1        VCOMAD
          45       MS
          46       +3V3
          47       GND
-         48       MODE
+         48       +3V3
          49       +5V
          5        OVF
          50       GND
