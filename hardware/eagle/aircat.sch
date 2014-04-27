@@ -11747,39 +11747,26 @@ W = angled&lt;p&gt;
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
 <part name="RST" library="rcl" deviceset="R-EU_" device="R0603" value="0 Ohm"/>
-<part name="ZERO" library="testpad" deviceset="TP" device="TP10SQ" value="-5V">
+<part name="ZERO" library="testpad" deviceset="TP" device="TP10SQ" value="">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="DOUT2" library="testpad" deviceset="TP" device="TP10SQ" value="-5V">
+<part name="DOUT2" library="testpad" deviceset="TP" device="TP10SQ" value="">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="DOUT3" library="testpad" deviceset="TP" device="TP10SQ" value="-5V">
+<part name="DOUT3" library="testpad" deviceset="TP" device="TP10SQ" value="">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="MDI" library="testpad" deviceset="TP" device="TP10SQ" value="-5V">
+<part name="DIN2" library="testpad" deviceset="TP" device="TP10SQ" value="">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="MDO" library="testpad" deviceset="TP" device="TP10SQ" value="-5V">
+<part name="DIN3" library="testpad" deviceset="TP" device="TP10SQ" value="">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="MODE" library="testpad" deviceset="TP" device="TP10SQ" value="-5V">
+<part name="DIN4" library="testpad" deviceset="TP" device="TP10SQ" value="">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="MS" library="testpad" deviceset="TP" device="TP10SQ" value="-5V">
-<attribute name="TP_SIGNAL_NAME" value=""/>
-</part>
-<part name="MC" library="testpad" deviceset="TP" device="TP10SQ" value="-5V">
-<attribute name="TP_SIGNAL_NAME" value=""/>
-</part>
-<part name="DIN2" library="testpad" deviceset="TP" device="TP10SQ" value="-5V">
-<attribute name="TP_SIGNAL_NAME" value=""/>
-</part>
-<part name="DIN3" library="testpad" deviceset="TP" device="TP10SQ" value="-5V">
-<attribute name="TP_SIGNAL_NAME" value=""/>
-</part>
-<part name="DIN4" library="testpad" deviceset="TP" device="TP10SQ" value="-5V">
-<attribute name="TP_SIGNAL_NAME" value=""/>
-</part>
+<part name="MODE" library="rcl" deviceset="R-EU_" device="R0603" value="0 Ohm"/>
+<part name="R66" library="rcl" deviceset="R-EU_" device="R0603" value="220k"/>
 </parts>
 <sheets>
 <sheet>
@@ -11811,6 +11798,14 @@ W = angled&lt;p&gt;
 <text x="-124.46" y="187.96" size="7.62" layer="91">Output stage</text>
 <text x="152.4" y="187.96" size="7.62" layer="91">Input stage</text>
 <text x="-281.94" y="208.28" size="25.4" layer="91">AirCat</text>
+<wire x1="-236.22" y1="76.2" x2="-256.54" y2="76.2" width="0.1524" layer="98"/>
+<wire x1="-256.54" y1="76.2" x2="-256.54" y2="91.44" width="0.1524" layer="98"/>
+<wire x1="-256.54" y1="91.44" x2="-261.62" y2="91.44" width="0.1524" layer="98"/>
+<wire x1="-261.62" y1="91.44" x2="-260.604" y2="92.456" width="0.1524" layer="98"/>
+<wire x1="-261.62" y1="91.44" x2="-260.604" y2="90.424" width="0.1524" layer="98"/>
+<wire x1="-236.22" y1="73.66" x2="-259.08" y2="73.66" width="0.1524" layer="98"/>
+<wire x1="-259.08" y1="73.66" x2="-258.064" y2="74.676" width="0.1524" layer="98"/>
+<wire x1="-259.08" y1="73.66" x2="-258.064" y2="72.644" width="0.1524" layer="98"/>
 </plain>
 <instances>
 <instance part="U1" gate="A" x="-200.66" y="93.98"/>
@@ -12046,14 +12041,11 @@ W = angled&lt;p&gt;
 <instance part="ZERO" gate="G$1" x="-149.86" y="76.2" rot="R270"/>
 <instance part="DOUT2" gate="G$1" x="-144.78" y="81.28" rot="R270"/>
 <instance part="DOUT3" gate="G$1" x="-147.32" y="78.74" rot="R270"/>
-<instance part="MDI" gate="G$1" x="-152.4" y="134.62" rot="R270"/>
-<instance part="MDO" gate="G$1" x="-154.94" y="132.08" rot="R270"/>
-<instance part="MODE" gate="G$1" x="-256.54" y="76.2" rot="R90"/>
-<instance part="MS" gate="G$1" x="-254" y="78.74" rot="R90"/>
-<instance part="MC" gate="G$1" x="-251.46" y="81.28" rot="R90"/>
-<instance part="DIN2" gate="G$1" x="-251.46" y="88.9" rot="R90"/>
-<instance part="DIN3" gate="G$1" x="-254" y="86.36" rot="R90"/>
-<instance part="DIN4" gate="G$1" x="-256.54" y="83.82" rot="R90"/>
+<instance part="DIN2" gate="G$1" x="-243.84" y="91.44" rot="R90"/>
+<instance part="DIN3" gate="G$1" x="-246.38" y="88.9" rot="R90"/>
+<instance part="DIN4" gate="G$1" x="-248.92" y="86.36" rot="R90"/>
+<instance part="MODE" gate="G$1" x="-269.24" y="86.36"/>
+<instance part="R66" gate="G$1" x="-269.24" y="96.52"/>
 </instances>
 <busses>
 </busses>
@@ -13329,6 +13321,11 @@ W = angled&lt;p&gt;
 <wire x1="213.36" y1="119.38" x2="210.82" y2="119.38" width="0.1524" layer="91"/>
 <label x="210.82" y="119.38" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="R66" gate="G$1" pin="1"/>
+<wire x1="-274.32" y1="96.52" x2="-276.86" y2="96.52" width="0.1524" layer="91"/>
+<label x="-276.86" y="96.52" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -13482,17 +13479,36 @@ W = angled&lt;p&gt;
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="RST"/>
-<wire x1="-228.6" y1="73.66" x2="-261.62" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-228.6" y1="73.66" x2="-231.14" y2="73.66" width="0.1524" layer="91"/>
+<label x="-231.14" y="73.66" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="RST" gate="G$1" pin="1"/>
+<wire x1="-271.78" y1="73.66" x2="-274.32" y2="73.66" width="0.1524" layer="91"/>
+<junction x="-271.78" y="73.66"/>
+<wire x1="-271.78" y1="77.47" x2="-271.78" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="RST" gate="G$1" pin="2"/>
 <wire x1="-261.62" y1="73.66" x2="-261.62" y2="77.47" width="0.1524" layer="91"/>
 <wire x1="-261.62" y1="77.47" x2="-271.78" y2="77.47" width="0.1524" layer="91"/>
-<pinref part="RST" gate="G$1" pin="1"/>
-<wire x1="-271.78" y1="77.47" x2="-271.78" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-271.78" y1="73.66" x2="-274.32" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-271.78" y="73.66"/>
-<junction x="-261.62" y="73.66"/>
 <label x="-274.32" y="73.66" size="1.778" layer="95" rot="R180"/>
-<label x="-231.14" y="73.66" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="MODE" gate="G$1" pin="2"/>
+<wire x1="-264.16" y1="86.36" x2="-264.16" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="MODE" gate="G$1" pin="1"/>
+<wire x1="-264.16" y1="91.44" x2="-274.32" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-274.32" y1="91.44" x2="-274.32" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-274.32" y1="86.36" x2="-276.86" y2="86.36" width="0.1524" layer="91"/>
+<junction x="-274.32" y="86.36"/>
+<label x="-276.86" y="86.36" size="1.778" layer="95" rot="R180"/>
+<pinref part="R66" gate="G$1" pin="2"/>
+<wire x1="-264.16" y1="91.44" x2="-264.16" y2="96.52" width="0.1524" layer="91"/>
+<junction x="-264.16" y="91.44"/>
+</segment>
+<segment>
+<pinref part="U1" gate="A" pin="MODE"/>
+<wire x1="-228.6" y1="76.2" x2="-231.14" y2="76.2" width="0.1524" layer="91"/>
+<label x="-231.14" y="76.2" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="DIN2" class="0">
@@ -13503,7 +13519,7 @@ W = angled&lt;p&gt;
 </segment>
 <segment>
 <pinref part="DIN2" gate="G$1" pin="TP"/>
-<wire x1="-248.92" y1="88.9" x2="-246.38" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="91.44" x2="-238.76" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VREFAD2" class="0">
@@ -14062,7 +14078,7 @@ W = angled&lt;p&gt;
 </segment>
 <segment>
 <pinref part="DIN3" gate="G$1" pin="TP"/>
-<wire x1="-251.46" y1="86.36" x2="-246.38" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="88.9" x2="-238.76" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIN4" class="0">
@@ -14073,7 +14089,7 @@ W = angled&lt;p&gt;
 </segment>
 <segment>
 <pinref part="DIN4" gate="G$1" pin="TP"/>
-<wire x1="-254" y1="83.82" x2="-246.38" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-246.38" y1="86.36" x2="-238.76" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIN1" class="0">
@@ -14184,8 +14200,9 @@ W = angled&lt;p&gt;
 <label x="-170.18" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MDI" gate="G$1" pin="TP"/>
-<wire x1="-154.94" y1="134.62" x2="-160.02" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="CON1" gate="_GPIO-3" pin="30"/>
+<wire x1="-182.88" y1="-15.24" x2="-180.34" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-180.34" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MDO" class="0">
@@ -14195,19 +14212,9 @@ W = angled&lt;p&gt;
 <label x="-170.18" y="132.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="MDO" gate="G$1" pin="TP"/>
-<wire x1="-157.48" y1="132.08" x2="-160.02" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="MODE" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="MODE"/>
-<wire x1="-228.6" y1="76.2" x2="-231.14" y2="76.2" width="0.1524" layer="91"/>
-<label x="-231.14" y="76.2" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
-<pinref part="MODE" gate="G$1" pin="TP"/>
-<wire x1="-254" y1="76.2" x2="-246.38" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="CON1" gate="_GPIO-3" pin="32"/>
+<wire x1="-182.88" y1="-12.7" x2="-180.34" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-180.34" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MS" class="0">
@@ -14217,8 +14224,9 @@ W = angled&lt;p&gt;
 <label x="-231.14" y="78.74" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="MS" gate="G$1" pin="TP"/>
-<wire x1="-251.46" y1="78.74" x2="-246.38" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="CON1" gate="_GPIO-3" pin="26"/>
+<wire x1="-182.88" y1="-20.32" x2="-180.34" y2="-20.32" width="0.1524" layer="91"/>
+<label x="-180.34" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MC" class="0">
@@ -14228,8 +14236,9 @@ W = angled&lt;p&gt;
 <label x="-231.14" y="81.28" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="MC" gate="G$1" pin="TP"/>
-<wire x1="-248.92" y1="81.28" x2="-246.38" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="CON1" gate="_GPIO-3" pin="28"/>
+<wire x1="-182.88" y1="-17.78" x2="-180.34" y2="-17.78" width="0.1524" layer="91"/>
+<label x="-180.34" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
