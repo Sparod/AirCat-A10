@@ -11470,7 +11470,7 @@ W = angled&lt;p&gt;
 </class>
 </classes>
 <parts>
-<part name="U1" library="pcm3168" deviceset="PCM3168APAP" device=""/>
+<part name="U1" library="pcm3168" deviceset="PCM3168APAP" device="" value="PCM3168A"/>
 <part name="U2" library="OPA1644" deviceset="OPA1644AIPW" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V"/>
@@ -11905,7 +11905,7 @@ W = angled&lt;p&gt;
 <instance part="C32" gate="G$1" x="-177.8" y="170.18"/>
 <instance part="C33" gate="G$1" x="-210.82" y="170.18"/>
 <instance part="C34" gate="G$1" x="-203.2" y="170.18"/>
-<instance part="C35" gate="G$1" x="-223.52" y="170.18"/>
+<instance part="C35" gate="G$1" x="-238.76" y="170.18"/>
 <instance part="C36" gate="G$1" x="-231.14" y="170.18"/>
 <instance part="GND3" gate="1" x="-177.8" y="160.02"/>
 <instance part="+3V2" gate="G$1" x="-177.8" y="180.34"/>
@@ -13047,7 +13047,6 @@ W = angled&lt;p&gt;
 <pinref part="C31" gate="G$1" pin="2"/>
 <wire x1="-185.42" y1="165.1" x2="-177.8" y2="165.1" width="0.1524" layer="91"/>
 <junction x="-177.8" y="165.1"/>
-<wire x1="-170.18" y1="165.1" x2="-177.8" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C37" gate="A" pin="2"/>
@@ -13192,12 +13191,11 @@ W = angled&lt;p&gt;
 <wire x1="-203.2" y1="165.1" x2="-203.2" y2="162.56" width="0.1524" layer="91"/>
 <junction x="-203.2" y="165.1"/>
 <pinref part="AGND17" gate="1" pin="GND"/>
-<wire x1="-195.58" y1="165.1" x2="-203.2" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C36" gate="G$1" pin="2"/>
 <pinref part="C35" gate="G$1" pin="2"/>
-<wire x1="-231.14" y1="165.1" x2="-223.52" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="-231.14" y1="165.1" x2="-238.76" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="-231.14" y1="165.1" x2="-231.14" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="AGND18" gate="1" pin="GND"/>
 </segment>
@@ -13364,12 +13362,11 @@ W = angled&lt;p&gt;
 <wire x1="-203.2" y1="172.72" x2="-203.2" y2="177.8" width="0.1524" layer="91"/>
 <junction x="-203.2" y="172.72"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="-203.2" y1="172.72" x2="-195.58" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C36" gate="G$1" pin="1"/>
 <pinref part="C35" gate="G$1" pin="1"/>
-<wire x1="-231.14" y1="172.72" x2="-223.52" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="-231.14" y1="172.72" x2="-238.76" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="-231.14" y1="172.72" x2="-231.14" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="-231.14" y1="175.26" x2="-231.14" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
@@ -13462,7 +13459,6 @@ W = angled&lt;p&gt;
 <pinref part="C31" gate="G$1" pin="1"/>
 <junction x="-177.8" y="172.72"/>
 <wire x1="-177.8" y1="172.72" x2="-185.42" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="-177.8" y1="172.72" x2="-170.18" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
@@ -13491,6 +13487,7 @@ W = angled&lt;p&gt;
 <wire x1="-261.62" y1="73.66" x2="-261.62" y2="77.47" width="0.1524" layer="91"/>
 <wire x1="-261.62" y1="77.47" x2="-271.78" y2="77.47" width="0.1524" layer="91"/>
 <label x="-274.32" y="73.66" size="1.778" layer="95" rot="R180"/>
+<junction x="-261.62" y="73.66"/>
 </segment>
 <segment>
 <pinref part="MODE" gate="G$1" pin="2"/>
