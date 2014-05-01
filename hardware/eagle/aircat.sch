@@ -11480,12 +11480,12 @@ W = angled&lt;p&gt;
 <attribute name="MPN" value="OPA1644AIPW"/>
 <attribute name="OC_FARNELL" value="1882283"/>
 </part>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
 </part>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
@@ -11542,12 +11542,12 @@ W = angled&lt;p&gt;
 </part>
 <part name="AGND1" library="supply1" deviceset="GND" device=""/>
 <part name="AGND2" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
 </part>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C7" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
@@ -11605,12 +11605,12 @@ W = angled&lt;p&gt;
 <part name="AGND3" library="supply1" deviceset="GND" device=""/>
 <part name="AGND4" library="supply1" deviceset="GND" device=""/>
 <part name="AGND7" library="supply1" deviceset="GND" device=""/>
-<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C11" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
 </part>
-<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C12" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
@@ -11667,12 +11667,12 @@ W = angled&lt;p&gt;
 </part>
 <part name="AGND5" library="supply1" deviceset="GND" device=""/>
 <part name="AGND6" library="supply1" deviceset="GND" device=""/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
 </part>
-<part name="C17" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C17" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
@@ -11729,12 +11729,12 @@ W = angled&lt;p&gt;
 </part>
 <part name="AGND9" library="supply1" deviceset="GND" device=""/>
 <part name="AGND10" library="supply1" deviceset="GND" device=""/>
-<part name="C21" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C21" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
 </part>
-<part name="C22" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C22" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
@@ -11796,12 +11796,12 @@ W = angled&lt;p&gt;
 <attribute name="MPN" value="OPA1644AIPW"/>
 <attribute name="OC_FARNELL" value="1882283"/>
 </part>
-<part name="C26" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C26" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
 </part>
-<part name="C27" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C27" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
@@ -12038,7 +12038,7 @@ W = angled&lt;p&gt;
 <part name="P-7" library="supply1" deviceset="-5V" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="AGND20" library="supply1" deviceset="GND" device=""/>
-<part name="C52" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C52" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
@@ -12082,7 +12082,7 @@ W = angled&lt;p&gt;
 </part>
 <part name="AGND23" library="supply1" deviceset="GND" device=""/>
 <part name="AGND24" library="supply1" deviceset="GND" device=""/>
-<part name="C57" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C57" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
@@ -12119,7 +12119,7 @@ W = angled&lt;p&gt;
 </part>
 <part name="AGND26" library="supply1" deviceset="GND" device=""/>
 <part name="AGND27" library="supply1" deviceset="GND" device=""/>
-<part name="C59" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C59" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
@@ -12156,12 +12156,12 @@ W = angled&lt;p&gt;
 </part>
 <part name="AGND25" library="supply1" deviceset="GND" device=""/>
 <part name="AGND28" library="supply1" deviceset="GND" device=""/>
-<part name="C65" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C65" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
 </part>
-<part name="C66" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C66" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
@@ -12218,12 +12218,12 @@ W = angled&lt;p&gt;
 </part>
 <part name="AGND29" library="supply1" deviceset="GND" device=""/>
 <part name="AGND30" library="supply1" deviceset="GND" device=""/>
-<part name="C70" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C70" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
 </part>
-<part name="C71" library="rcl" deviceset="C-EU" device="C0603" value="10µF 16V">
+<part name="C71" library="rcl" deviceset="C-EU" device="C0805" value="10µF 16V">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="1206YD106KAT2A"/>
 <attribute name="OC_FARNELL" value="1327727"/>
