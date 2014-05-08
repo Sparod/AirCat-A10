@@ -1,6 +1,6 @@
 Pinlist
 
-Exported from aircat.brd at 01/05/2014 03:13:17
+Exported from aircat.brd at 08/05/2014 02:01:02
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
@@ -336,6 +336,9 @@ MODE     1        +3V3
 
 OVF      TP       OVF
 
+POWER    A        +5V
+         C        N$38
+
 R1       1        N$2
          2        N$3
 
@@ -533,6 +536,9 @@ R65      1        GND
 
 R66      1        GND
          2        +3V3
+
+R67      1        GND
+         2        N$38
 
 RST      1        +3V3
          2        +3V3

@@ -1,6 +1,6 @@
 Partlist
 
-Exported from aircat.brd at 01/05/2014 03:08:31
+Exported from aircat.brd at 08/05/2014 02:00:56
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
@@ -94,6 +94,7 @@ DOUT2                                       TP10SQ                    testpad   
 DOUT3                                       TP10SQ                    testpad                        (-0.3875 0.31875)     MR0
 MODE     0 Ohm                              R0603                     rcl                            (0.35 0.6)            MR0
 OVF      TPTP10SQ                           TP10SQ                    testpad                        (-0.39375 0.479)      MR0
+POWER                                       SML0603                   led                            (-0.9 0.65)           R270
 R1       7.5k                               R0603                     rcl                            (0.8125 -0.20625)     R270
 R2       7.5k                               R0603                     rcl                            (0.9375 -0.20625)     R270
 R3       360                                R0603                     rcl                            (0.8125 -0.5)         R270
@@ -160,6 +161,7 @@ R63      5.6k                               R0603                     rcl       
 R64      47                                 R0603                     rcl                            (-0.8125 -0.8)        R270
 R65      5.6k                               R0603                     rcl                            (-0.8125 -0.35)       R90
 R66      220k                               R0603                     rcl                            (0.35 0.7)            MR0
+R67      150                                R0603                     rcl                            (-0.75625 0.65)       R90
 RST      0 Ohm                              R0603                     rcl                            (-0.45625 0.5125)     MR90
 SV1                                         MA03-2                    con-lstb-without-pin-numbers   (0.9375 1.0125)       R90
 SV2                                         MA08-2                    con-lstb-without-pin-numbers   (-0.6 -1.05)          R0

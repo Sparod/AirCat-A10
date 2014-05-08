@@ -1,6 +1,6 @@
 Netlist
 
-Exported from aircat.brd at 01/05/2014 03:13:04
+Exported from aircat.brd at 08/05/2014 02:00:49
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
@@ -33,6 +33,7 @@ Net      Part     Pad
          C50      1
          C77      1
          CON1     D-1
+         POWER    A
          TP2      TP
          U1       14
          U1       3
@@ -301,6 +302,7 @@ GND      C10      2
          R58      1
          R65      1
          R66      1
+         R67      1
          R7       1
          SV1      1
          SV1      3
@@ -482,6 +484,9 @@ N$37     C72      2
          R60      2
          R62      1
          R65      2
+
+N$38     POWER    C
+         R67      2
 
 OVF      OVF      TP
          U1       5

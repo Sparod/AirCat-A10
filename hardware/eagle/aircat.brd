@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="6.25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,14 +28,14 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,16 +46,16 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -128,6 +128,7 @@
 <text x="-6.0325" y="-5.3975" size="0.8" layer="26" rot="MR0">OPA1644</text>
 <text x="19.3675" y="-5.3975" size="0.8" layer="26" rot="MR0">OPA1644</text>
 <text x="15.5575" y="13.335" size="0.8" layer="26" rot="MR90">OPA1644</text>
+<text x="-22.86" y="14.9225" size="0.8" layer="25" align="center">+</text>
 </plain>
 <libraries>
 <library name="pcm3168">
@@ -2491,6 +2492,42 @@ W = angled&lt;p&gt;
 </package>
 </packages>
 </library>
+<library name="led">
+<description>&lt;b&gt;LEDs&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;br&gt;
+Extended by Federico Battaglin &lt;author&gt;&amp;lt;federico.rd@fdpinternational.com&amp;gt;&lt;/author&gt; with DUOLED</description>
+<packages>
+<package name="SML0603">
+<description>&lt;b&gt;SML0603-XXX (HIGH INTENSITY) LED&lt;/b&gt;&lt;p&gt;
+&lt;table&gt;
+&lt;tr&gt;&lt;td&gt;AG3K&lt;/td&gt;&lt;td&gt;AQUA GREEN&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;B1K&lt;/td&gt;&lt;td&gt;SUPER BLUE&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;R1K&lt;/td&gt;&lt;td&gt;SUPER RED&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;R3K&lt;/td&gt;&lt;td&gt;ULTRA RED&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;O3K&lt;/td&gt;&lt;td&gt;SUPER ORANGE&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;O3KH&lt;/td&gt;&lt;td&gt;SOFT ORANGE&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Y3KH&lt;/td&gt;&lt;td&gt;SUPER YELLOW&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;Y3K&lt;/td&gt;&lt;td&gt;SUPER YELLOW&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td&gt;2CW&lt;/td&gt;&lt;td&gt;WHITE&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
+<wire x1="-0.75" y1="0.35" x2="0.75" y2="0.35" width="0.1016" layer="51"/>
+<wire x1="0.75" y1="0.35" x2="0.75" y2="-0.35" width="0.1016" layer="51"/>
+<wire x1="0.75" y1="-0.35" x2="-0.75" y2="-0.35" width="0.1016" layer="51"/>
+<wire x1="-0.75" y1="-0.35" x2="-0.75" y2="0.35" width="0.1016" layer="51"/>
+<wire x1="-0.45" y1="0.3" x2="-0.45" y2="-0.3" width="0.1016" layer="51"/>
+<wire x1="0.45" y1="0.3" x2="0.45" y2="-0.3" width="0.1016" layer="51"/>
+<wire x1="-0.2" y1="0.35" x2="0.2" y2="0.35" width="0.1016" layer="21"/>
+<wire x1="-0.2" y1="-0.35" x2="0.2" y2="-0.35" width="0.1016" layer="21"/>
+<smd name="C" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="A" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<text x="-1" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1" y="-2" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.4" y1="0.175" x2="0" y2="0.4" layer="51"/>
+<rectangle x1="-0.25" y1="0.175" x2="0" y2="0.4" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3907,6 +3944,17 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MF" value="" x="8.89" y="17.78" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="" x="8.89" y="17.78" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
+<element name="POWER" library="led" package="SML0603" value="" x="-22.86" y="16.51" smashed="yes" rot="R270">
+<attribute name="NAME" x="-21.5425" y="16.24" size="0.8" layer="25" rot="R270" align="top-center"/>
+<attribute name="VALUE" x="-24.86" y="17.51" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R67" library="rcl" package="R0603" value="150" x="-19.20875" y="16.51" smashed="yes" rot="R90">
+<attribute name="MPN" value="MCRE000161" x="-19.20875" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="MULTICOMP" x="-19.20875" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_FARNELL" value="1711638" x="-19.20875" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-17.78" y="15.39875" size="0.8" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-18.89125" y="15.5575" size="0.8" layer="27" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="VOUT1+">
@@ -5171,6 +5219,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="-22.9489" y1="20.32" x2="-22.06625" y2="20.32" width="0.6096" layer="1"/>
 <via x="-22.06625" y="20.32" extent="1-16" drill="0.5"/>
 <wire x1="-22.06625" y1="20.32" x2="-22.06625" y2="20.47875" width="0.6096" layer="16"/>
+<contactref element="R67" pad="1"/>
+<wire x1="-19.20875" y1="15.66" x2="-18.415" y2="14.86625" width="0.2032" layer="1"/>
+<wire x1="-18.415" y1="14.86625" x2="-18.415" y2="13.0175" width="0.2032" layer="1"/>
 </signal>
 <signal name="+5V">
 <contactref element="U1" pad="34"/>
@@ -5249,7 +5300,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="-4.445" y1="14.76375" x2="-4.445" y2="13.096875" width="0.4064" layer="16"/>
 <wire x1="-4.445" y1="13.096875" x2="-4.206875" y2="12.85875" width="0.4064" layer="16"/>
 <wire x1="2.2225" y1="11.7475" x2="-2.2225" y2="11.7475" width="0.4064" layer="16"/>
-<wire x1="-24.60625" y1="18.57375" x2="-24.60625" y2="5.3975" width="0.6096" layer="1"/>
+<wire x1="-24.60625" y1="18.57375" x2="-24.60625" y2="16.51" width="0.6096" layer="1"/>
+<wire x1="-24.60625" y1="16.51" x2="-24.60625" y2="5.3975" width="0.6096" layer="1"/>
 <wire x1="20.32" y1="19.47" x2="20.16125" y2="19.20875" width="0.3048" layer="16"/>
 <wire x1="20.16125" y1="19.20875" x2="20.16125" y2="18.0975" width="0.3048" layer="16"/>
 <wire x1="20.16125" y1="18.0975" x2="20.32" y2="17.93875" width="0.3048" layer="16"/>
@@ -5305,6 +5357,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="12.3825" y1="8.5725" x2="12.85875" y2="8.09625" width="0.3048" layer="1"/>
 <wire x1="4.206875" y1="6.905625" x2="4.206875" y2="5.476875" width="0.3048" layer="1"/>
 <wire x1="4.206875" y1="5.476875" x2="5.23875" y2="4.445" width="0.3048" layer="1"/>
+<contactref element="POWER" pad="A"/>
+<wire x1="-22.86" y1="15.76" x2="-24.60625" y2="15.76" width="0.2032" layer="1"/>
+<wire x1="-24.60625" y1="15.76" x2="-24.60625" y2="16.51" width="0.2032" layer="1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U1" pad="46"/>
@@ -6251,7 +6306,64 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="10.16" y1="9.68375" x2="10.16" y2="7.14375" width="0.2032" layer="1"/>
 <wire x1="10.16" y1="7.14375" x2="10.63625" y2="6.6675" width="0.2032" layer="1"/>
 </signal>
+<signal name="N$38">
+<contactref element="POWER" pad="C"/>
+<contactref element="R67" pad="2"/>
+<wire x1="-22.86" y1="17.26" x2="-19.20875" y2="17.26" width="0.2032" layer="1"/>
+<wire x1="-19.20875" y1="17.26" x2="-19.20875" y2="17.36" width="0.2032" layer="1"/>
+</signal>
 </signals>
+<errors>
+<approved hash="3,16,b0f67e9d83f41c7b"/>
+<approved hash="19,1,37600a54059838ac"/>
+<approved hash="19,1,219bb1afb0f020c4"/>
+<approved hash="19,1,3c18082c0d003934"/>
+<approved hash="19,1,43d877ec70304404"/>
+<approved hash="19,1,3c1c08281408203c"/>
+<approved hash="19,1,219bb1afb0f020c4"/>
+<approved hash="19,1,37600a54059838ac"/>
+<approved hash="5,1,6cc55915e3d1a99a"/>
+<approved hash="4,16,c2ff470a3019856d"/>
+<approved hash="4,16,e8f87e0bdb1e7e6a"/>
+<approved hash="4,16,e2fd9908201af36f"/>
+<approved hash="4,16,64f9ce0a86e71d93"/>
+<approved hash="4,16,02fdaf095018dd6f"/>
+<approved hash="4,16,dcf1460a3717fa63"/>
+<approved hash="4,16,eafc7d09d81a7f6e"/>
+<approved hash="4,16,e0fe660c211ef66d"/>
+<approved hash="4,16,7affcf0b7819dd6c"/>
+<approved hash="4,16,00ffa60b5318e66d"/>
+<approved hash="4,16,eaff790a3819f36d"/>
+<approved hash="4,16,e4fc460ba11a726e"/>
+<approved hash="4,16,eafe6705d8170563"/>
+<approved hash="4,16,7cfdce09771bda6c"/>
+<approved hash="4,16,0281a50d5018e713"/>
+<approved hash="4,16,e8fd7e0a391bfe6f"/>
+<approved hash="4,16,e2f8470da01e756a"/>
+<approved hash="4,16,d8fe6e0bdb191e6d"/>
+<approved hash="4,16,02ffc90b7019c36c"/>
+<approved hash="4,16,64ffbe0b5918f26d"/>
+<approved hash="4,16,5d901b64ee119864"/>
+<approved hash="4,16,7797e0650516a163"/>
+<approved hash="4,16,7d936d66fe134666"/>
+<approved hash="4,16,fb91839b58e81165"/>
+<approved hash="4,16,9d9143678e137066"/>
+<approved hash="4,16,439e6464e91f996a"/>
+<approved hash="4,16,7593e1670612a267"/>
+<approved hash="4,16,7f976862ff10b964"/>
+<approved hash="4,16,e5904365a6111065"/>
+<approved hash="4,16,9f9178658d117964"/>
+<approved hash="4,16,75906d64e611a664"/>
+<approved hash="4,16,7b93ec657f129967"/>
+<approved hash="4,16,759e9b6b0610b86a"/>
+<approved hash="4,16,e3924467a9131165"/>
+<approved hash="4,16,9d9179638e6f7a1a"/>
+<approved hash="4,16,77926064e713a166"/>
+<approved hash="4,16,7d97eb637e169863"/>
+<approved hash="4,16,479080650510b164"/>
+<approved hash="4,16,9d905d65ae111665"/>
+<approved hash="4,16,fb916c6587116164"/>
+</errors>
 </board>
 </drawing>
 </eagle>
