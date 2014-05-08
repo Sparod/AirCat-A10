@@ -1,6 +1,6 @@
 Netlist
 
-Exported from aircat.brd at 08/05/2014 02:00:49
+Exported from aircat.brd at 08/05/2014 02:47:09
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
@@ -57,37 +57,37 @@ Net      Part     Pad
          U6       5
 
 ANALOG_IN_1 C52      1
-         SV1      6
+         CON3     6
 
 ANALOG_IN_2 C57      1
-         SV1      4
+         CON3     4
 
 ANALOG_IN_3 C59      1
-         SV1      2
+         CON3     2
 
-ANALOG_OUT_1 R6       2
-         SV2      16
+ANALOG_OUT_1 CON2     16
+         R6       2
 
-ANALOG_OUT_2 R13      2
-         SV2      14
+ANALOG_OUT_2 CON2     14
+         R13      2
 
-ANALOG_OUT_3 R20      2
-         SV2      12
+ANALOG_OUT_3 CON2     12
+         R20      2
 
-ANALOG_OUT_4 R27      2
-         SV2      10
+ANALOG_OUT_4 CON2     10
+         R27      2
 
-ANALOG_OUT_5 R34      2
-         SV2      8
+ANALOG_OUT_5 CON2     8
+         R34      2
 
-ANALOG_OUT_6 R41      2
-         SV2      6
+ANALOG_OUT_6 CON2     6
+         R41      2
 
-ANALOG_OUT_7 R57      2
-         SV2      4
+ANALOG_OUT_7 CON2     4
+         R57      2
 
-ANALOG_OUT_8 R64      2
-         SV2      2
+ANALOG_OUT_8 CON2     2
+         R64      2
 
 AOP_IN_A+ C5       1
          R4       2
@@ -294,6 +294,18 @@ GND      C10      2
          CON1     3-4
          CON1     D-2
          CON1     D-4
+         CON2     1
+         CON2     11
+         CON2     13
+         CON2     15
+         CON2     3
+         CON2     5
+         CON2     7
+         CON2     9
+         CON3     1
+         CON3     3
+         CON3     5
+         CON4     1
          R14      1
          R21      1
          R28      1
@@ -304,17 +316,6 @@ GND      C10      2
          R66      1
          R67      1
          R7       1
-         SV1      1
-         SV1      3
-         SV1      5
-         SV2      1
-         SV2      11
-         SV2      13
-         SV2      15
-         SV2      3
-         SV2      5
-         SV2      7
-         SV2      9
          TP3      TP
          U1       11
          U1       16
@@ -493,6 +494,9 @@ OVF      OVF      TP
 
 SCKI     CON1     3-10
          U1       41
+
+SPDIF_DO CON1     3-24
+         CON4     2
 
 VCOMAD   C42      1
          C54      2

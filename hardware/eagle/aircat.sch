@@ -11332,6 +11332,28 @@ W = angled&lt;p&gt;
 <rectangle x1="6.096" y1="1.016" x2="6.604" y2="1.524" layer="51"/>
 <rectangle x1="8.636" y1="1.016" x2="9.144" y2="1.524" layer="51"/>
 </package>
+<package name="MA02-1">
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-2.54" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MA03-2">
@@ -11394,6 +11416,18 @@ W = angled&lt;p&gt;
 <pin name="14" x="-7.62" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="16" x="-7.62" y="10.16" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 </symbol>
+<symbol name="MA02-1">
+<wire x1="1.27" y1="-2.54" x2="-3.81" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<text x="-3.81" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.81" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MA03-2" prefix="SV" uservalue="yes">
@@ -11454,6 +11488,22 @@ W = angled&lt;p&gt;
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MA02-1">
+<gates>
+<gate name="G$1" symbol="MA02-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MA02-1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -13832,12 +13882,12 @@ Source: www.kingbright.com</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="SV1" library="con-lstb-without-pin-numbers" deviceset="MA03-2" device="">
+<part name="CON3" library="con-lstb-without-pin-numbers" deviceset="MA03-2" device="" value="ANALOG_IN">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="SV2" library="con-lstb-without-pin-numbers" deviceset="MA08-2" device="">
+<part name="CON2" library="con-lstb-without-pin-numbers" deviceset="MA08-2" device="" value="ANALOG_OUT">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -13913,6 +13963,7 @@ Source: www.kingbright.com</description>
 <attribute name="MPN" value="MCRE000161"/>
 <attribute name="OC_FARNELL" value="1711638"/>
 </part>
+<part name="CON4" library="con-lstb-without-pin-numbers" deviceset="MA02-1" device="" value="SPDIF_OUT"/>
 </parts>
 <sheets>
 <sheet>
@@ -14758,8 +14809,8 @@ Source: www.kingbright.com</description>
 <attribute name="MF" x="-195.58" y="-114.3" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-195.58" y="-114.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SV1" gate="1" x="246.38" y="180.34"/>
-<instance part="SV2" gate="G$1" x="-50.8" y="170.18"/>
+<instance part="CON3" gate="1" x="246.38" y="180.34"/>
+<instance part="CON2" gate="G$1" x="-50.8" y="170.18"/>
 <instance part="C76" gate="G$1" x="269.24" y="-124.46">
 <attribute name="OC_FARNELL" x="269.24" y="-124.46" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="269.24" y="-124.46" size="1.778" layer="96" display="off"/>
@@ -14826,6 +14877,7 @@ Source: www.kingbright.com</description>
 <attribute name="MF" x="-256.54" y="-111.76" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="-256.54" y="-111.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
+<instance part="CON4" gate="G$1" x="-152.4" y="-5.08"/>
 </instances>
 <busses>
 </busses>
@@ -14979,7 +15031,7 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="-58.42" y1="180.34" x2="-60.96" y2="180.34" width="0.1524" layer="91"/>
 <label x="-60.96" y="180.34" size="1.778" layer="95" rot="R180"/>
-<pinref part="SV2" gate="G$1" pin="16"/>
+<pinref part="CON2" gate="G$1" pin="16"/>
 </segment>
 </net>
 <net name="AOP_OUT_B" class="0">
@@ -15083,14 +15135,14 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="-58.42" y1="177.8" x2="-60.96" y2="177.8" width="0.1524" layer="91"/>
 <label x="-60.96" y="177.8" size="1.778" layer="95" rot="R180"/>
-<pinref part="SV2" gate="G$1" pin="14"/>
+<pinref part="CON2" gate="G$1" pin="14"/>
 </segment>
 </net>
 <net name="ANALOG_OUT_3" class="0">
 <segment>
 <wire x1="-58.42" y1="175.26" x2="-60.96" y2="175.26" width="0.1524" layer="91"/>
 <label x="-60.96" y="175.26" size="1.778" layer="95" rot="R180"/>
-<pinref part="SV2" gate="G$1" pin="12"/>
+<pinref part="CON2" gate="G$1" pin="12"/>
 </segment>
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
@@ -15102,7 +15154,7 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="-58.42" y1="172.72" x2="-60.96" y2="172.72" width="0.1524" layer="91"/>
 <label x="-60.96" y="172.72" size="1.778" layer="95" rot="R180"/>
-<pinref part="SV2" gate="G$1" pin="10"/>
+<pinref part="CON2" gate="G$1" pin="10"/>
 </segment>
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
@@ -15114,7 +15166,7 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="-58.42" y1="170.18" x2="-60.96" y2="170.18" width="0.1524" layer="91"/>
 <label x="-60.96" y="170.18" size="1.778" layer="95" rot="R180"/>
-<pinref part="SV2" gate="G$1" pin="8"/>
+<pinref part="CON2" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="R34" gate="G$1" pin="2"/>
@@ -15126,7 +15178,7 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="-58.42" y1="167.64" x2="-60.96" y2="167.64" width="0.1524" layer="91"/>
 <label x="-60.96" y="167.64" size="1.778" layer="95" rot="R180"/>
-<pinref part="SV2" gate="G$1" pin="6"/>
+<pinref part="CON2" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="R41" gate="G$1" pin="2"/>
@@ -15138,7 +15190,7 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="-58.42" y1="165.1" x2="-60.96" y2="165.1" width="0.1524" layer="91"/>
 <label x="-60.96" y="165.1" size="1.778" layer="95" rot="R180"/>
-<pinref part="SV2" gate="G$1" pin="4"/>
+<pinref part="CON2" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="R57" gate="G$1" pin="2"/>
@@ -15150,7 +15202,7 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="-58.42" y1="162.56" x2="-60.96" y2="162.56" width="0.1524" layer="91"/>
 <label x="-60.96" y="162.56" size="1.778" layer="95" rot="R180"/>
-<pinref part="SV2" gate="G$1" pin="2"/>
+<pinref part="CON2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="R64" gate="G$1" pin="2"/>
@@ -15886,21 +15938,21 @@ Source: www.kingbright.com</description>
 <wire x1="-43.18" y1="172.72" x2="-43.18" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="175.26" x2="-43.18" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="177.8" x2="-43.18" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="SV2" gate="G$1" pin="1"/>
+<pinref part="CON2" gate="G$1" pin="1"/>
 <junction x="-43.18" y="162.56"/>
-<pinref part="SV2" gate="G$1" pin="3"/>
+<pinref part="CON2" gate="G$1" pin="3"/>
 <junction x="-43.18" y="165.1"/>
-<pinref part="SV2" gate="G$1" pin="5"/>
+<pinref part="CON2" gate="G$1" pin="5"/>
 <junction x="-43.18" y="167.64"/>
-<pinref part="SV2" gate="G$1" pin="7"/>
+<pinref part="CON2" gate="G$1" pin="7"/>
 <junction x="-43.18" y="170.18"/>
-<pinref part="SV2" gate="G$1" pin="9"/>
+<pinref part="CON2" gate="G$1" pin="9"/>
 <junction x="-43.18" y="172.72"/>
-<pinref part="SV2" gate="G$1" pin="11"/>
+<pinref part="CON2" gate="G$1" pin="11"/>
 <junction x="-43.18" y="175.26"/>
-<pinref part="SV2" gate="G$1" pin="13"/>
+<pinref part="CON2" gate="G$1" pin="13"/>
 <junction x="-43.18" y="177.8"/>
-<pinref part="SV2" gate="G$1" pin="15"/>
+<pinref part="CON2" gate="G$1" pin="15"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
@@ -16033,9 +16085,9 @@ Source: www.kingbright.com</description>
 <wire x1="254" y1="177.8" x2="256.54" y2="177.8" width="0.1524" layer="91"/>
 <junction x="256.54" y="180.34"/>
 <junction x="256.54" y="177.8"/>
-<pinref part="SV1" gate="1" pin="1"/>
-<pinref part="SV1" gate="1" pin="3"/>
-<pinref part="SV1" gate="1" pin="5"/>
+<pinref part="CON3" gate="1" pin="1"/>
+<pinref part="CON3" gate="1" pin="3"/>
+<pinref part="CON3" gate="1" pin="5"/>
 </segment>
 <segment>
 <pinref part="C54" gate="G$1" pin="1"/>
@@ -16109,6 +16161,11 @@ Source: www.kingbright.com</description>
 <pinref part="R67" gate="G$1" pin="1"/>
 <pinref part="AGND33" gate="1" pin="GND"/>
 <wire x1="-256.54" y1="-116.84" x2="-256.54" y2="-114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CON4" gate="G$1" pin="1"/>
+<wire x1="-147.32" y1="-5.08" x2="-144.78" y2="-5.08" width="0.1524" layer="91"/>
+<label x="-144.78" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -16707,7 +16764,7 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="238.76" y1="182.88" x2="236.22" y2="182.88" width="0.1524" layer="91"/>
 <label x="236.22" y="182.88" size="1.778" layer="95" rot="R180"/>
-<pinref part="SV1" gate="1" pin="6"/>
+<pinref part="CON3" gate="1" pin="6"/>
 </segment>
 <segment>
 <pinref part="C52" gate="G$1" pin="1"/>
@@ -16719,7 +16776,7 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="238.76" y1="180.34" x2="236.22" y2="180.34" width="0.1524" layer="91"/>
 <label x="236.22" y="180.34" size="1.778" layer="95" rot="R180"/>
-<pinref part="SV1" gate="1" pin="4"/>
+<pinref part="CON3" gate="1" pin="4"/>
 </segment>
 <segment>
 <pinref part="C57" gate="G$1" pin="1"/>
@@ -16731,7 +16788,7 @@ Source: www.kingbright.com</description>
 <segment>
 <wire x1="238.76" y1="177.8" x2="236.22" y2="177.8" width="0.1524" layer="91"/>
 <label x="236.22" y="177.8" size="1.778" layer="95" rot="R180"/>
-<pinref part="SV1" gate="1" pin="2"/>
+<pinref part="CON3" gate="1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C59" gate="G$1" pin="1"/>
@@ -17032,6 +17089,18 @@ Source: www.kingbright.com</description>
 <pinref part="POWER" gate="G$1" pin="C"/>
 <pinref part="R67" gate="G$1" pin="2"/>
 <wire x1="-256.54" y1="-104.14" x2="-256.54" y2="-101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SPDIF_DO" class="0">
+<segment>
+<pinref part="CON1" gate="_GPIO-3" pin="24"/>
+<wire x1="-182.88" y1="-22.86" x2="-180.34" y2="-22.86" width="0.1524" layer="91"/>
+<label x="-180.34" y="-22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="CON4" gate="G$1" pin="2"/>
+<wire x1="-147.32" y1="-2.54" x2="-144.78" y2="-2.54" width="0.1524" layer="91"/>
+<label x="-144.78" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

@@ -1,6 +1,6 @@
 Partlist
 
-Exported from aircat.brd at 08/05/2014 02:00:56
+Exported from aircat.brd at 08/05/2014 02:47:32
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
@@ -87,6 +87,9 @@ C76      0.001-1µF                          C0603                     rcl       
 C77      100nF                              C0603                     rcl                            (-0.66875 1.06875)    R180
 C78      100nF                              C0603                     rcl                            (-0.45625 1.06875)    R180
 CON1     A10_OLINUXINO_LIME_SHIELD_TEMPLATE A10_OLINUXINO_LIME_SHIELD A10_OLIMEXINO_LIME_SHIELD_edit (0 0)                 R0
+CON2     ANALOG_OUT                         MA08-2                    con-lstb-without-pin-numbers   (-0.6 -1.05)          R0
+CON3     ANALOG_IN                          MA03-2                    con-lstb-without-pin-numbers   (0.9375 1.0125)       R90
+CON4     SPDIF_OUT                          MA02-1                    con-lstb-without-pin-numbers   (0.875 -0.98125)      R270
 DIN2                                        TP10SQ                    testpad                        (0.425 0.44375)       MR180
 DIN3                                        TP10SQ                    testpad                        (0.3625 0.44375)      MR180
 DIN4                                        TP10SQ                    testpad                        (0.3 0.44375)         MR180
@@ -163,8 +166,6 @@ R65      5.6k                               R0603                     rcl       
 R66      220k                               R0603                     rcl                            (0.35 0.7)            MR0
 R67      150                                R0603                     rcl                            (-0.75625 0.65)       R90
 RST      0 Ohm                              R0603                     rcl                            (-0.45625 0.5125)     MR90
-SV1                                         MA03-2                    con-lstb-without-pin-numbers   (0.9375 1.0125)       R90
-SV2                                         MA08-2                    con-lstb-without-pin-numbers   (-0.6 -1.05)          R0
 TP1      -5V                                B1,27                     testpad                        (-0.975 1.075)        R0
 TP2      +5V                                B1,27                     testpad                        (-0.875 1.075)        R0
 TP3      GND                                B1,27                     testpad                        (-0.775 1.075)        R0

@@ -1,6 +1,6 @@
 Pinlist
 
-Exported from aircat.brd at 08/05/2014 02:01:02
+Exported from aircat.brd at 08/05/2014 02:47:51
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
@@ -256,7 +256,7 @@ CON1     3-1               *** unconnected ***
          3-21              *** unconnected ***
          3-22     DOUT1
          3-23              *** unconnected ***
-         3-24              *** unconnected ***
+         3-24     SPDIF_DO
          3-25              *** unconnected ***
          3-26     MS
          3-27              *** unconnected ***
@@ -320,6 +320,33 @@ CON1     3-1               *** unconnected ***
          D-7               *** unconnected ***
          D-8               *** unconnected ***
          D-9               *** unconnected ***
+
+CON2     1        GND
+         10       ANALOG_OUT_4
+         11       GND
+         12       ANALOG_OUT_3
+         13       GND
+         14       ANALOG_OUT_2
+         15       GND
+         16       ANALOG_OUT_1
+         2        ANALOG_OUT_8
+         3        GND
+         4        ANALOG_OUT_7
+         5        GND
+         6        ANALOG_OUT_6
+         7        GND
+         8        ANALOG_OUT_5
+         9        GND
+
+CON3     1        GND
+         2        ANALOG_IN_3
+         3        GND
+         4        ANALOG_IN_2
+         5        GND
+         6        ANALOG_IN_1
+
+CON4     1        GND
+         2        SPDIF_DO
 
 DIN2     TP       DIN2
 
@@ -542,30 +569,6 @@ R67      1        GND
 
 RST      1        +3V3
          2        +3V3
-
-SV1      1        GND
-         2        ANALOG_IN_3
-         3        GND
-         4        ANALOG_IN_2
-         5        GND
-         6        ANALOG_IN_1
-
-SV2      1        GND
-         10       ANALOG_OUT_4
-         11       GND
-         12       ANALOG_OUT_3
-         13       GND
-         14       ANALOG_OUT_2
-         15       GND
-         16       ANALOG_OUT_1
-         2        ANALOG_OUT_8
-         3        GND
-         4        ANALOG_OUT_7
-         5        GND
-         6        ANALOG_OUT_6
-         7        GND
-         8        ANALOG_OUT_5
-         9        GND
 
 TP1      TP       -5V
 
