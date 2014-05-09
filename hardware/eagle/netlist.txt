@@ -1,6 +1,6 @@
 Netlist
 
-Exported from aircat.brd at 08/05/2014 02:47:09
+Exported from aircat.brd at 09/05/2014 18:12:15
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
@@ -226,11 +226,13 @@ AOP_OUT_L U4       13
 AREFAD1  C39      1
          U1       59
 
-BCKAD/DA CON1     3-12
+BCKAD/DA BCKAD/DA TP
+         CON1     3-12
          U1       36
          U1       7
 
 DIN1     CON1     3-16
+         DIN1     TP
          U1       37
 
 DIN2     DIN2     TP
@@ -243,6 +245,7 @@ DIN4     DIN4     TP
          U1       40
 
 DOUT1    CON1     3-22
+         DOUT1    TP
          U1       8
 
 DOUT2    DOUT2    TP
@@ -306,6 +309,8 @@ GND      C10      2
          CON3     3
          CON3     5
          CON4     1
+         GND@1    TP
+         GND@2    TP
          R14      1
          R21      1
          R28      1
@@ -328,19 +333,24 @@ GND      C10      2
          U6       3
 
 LRCKAD/DA CON1     3-14
+         LRCKAD/DA TP
          U1       35
          U1       6
 
 MC       CON1     3-28
+         MC       TP
          U1       42
 
 MDI      CON1     3-30
+         MDI      TP
          U1       43
 
 MDO      CON1     3-32
+         MDO      TP
          U1       44
 
 MS       CON1     3-26
+         MS       TP
          U1       45
 
 N$1      C2       2
@@ -493,10 +503,12 @@ OVF      OVF      TP
          U1       5
 
 SCKI     CON1     3-10
+         SCKI     TP
          U1       41
 
 SPDIF_DO CON1     3-24
          CON4     2
+         SPDIF_DO TP
 
 VCOMAD   C42      1
          C54      2
