@@ -14036,6 +14036,18 @@ Source: www.kingbright.com</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
+<part name="DOUT2(NC)" library="testpad" deviceset="TP" device="TP10SQ" value="TPTP10SQ">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
+<part name="DOUT3(NC)" library="testpad" deviceset="TP" device="TP10SQ" value="TPTP10SQ">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -15043,6 +15055,20 @@ Source: www.kingbright.com</description>
 <attribute name="OC_FARNELL" x="-238.76" y="-114.3" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="-238.76" y="-114.3" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="-238.76" y="-114.3" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="DOUT2(NC)" gate="G$1" x="-157.48" y="-27.94" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" x="-157.48" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-157.48" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-157.48" y="-27.94" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-156.718" y="-28.956" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-158.75" y="-29.21" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="DOUT3(NC)" gate="G$1" x="-157.48" y="-30.48" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" x="-157.48" y="-30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-157.48" y="-30.48" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-157.48" y="-30.48" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-156.718" y="-31.496" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-158.75" y="-31.75" size="1.778" layer="97" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -17317,6 +17343,28 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="SPDIF_DO" gate="G$1" pin="TP"/>
 <wire x1="-160.02" y1="-22.86" x2="-162.56" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DOUT2(NC)" class="0">
+<segment>
+<pinref part="CON1" gate="_GPIO-3" pin="20"/>
+<wire x1="-182.88" y1="-27.94" x2="-180.34" y2="-27.94" width="0.1524" layer="91"/>
+<label x="-180.34" y="-27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DOUT2(NC)" gate="G$1" pin="TP"/>
+<wire x1="-160.02" y1="-27.94" x2="-162.56" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="DOUT3(NC)" class="0">
+<segment>
+<pinref part="CON1" gate="_GPIO-3" pin="18"/>
+<wire x1="-182.88" y1="-30.48" x2="-180.34" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-180.34" y="-30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="DOUT3(NC)" gate="G$1" pin="TP"/>
+<wire x1="-160.02" y1="-30.48" x2="-162.56" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

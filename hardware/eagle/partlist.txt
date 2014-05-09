@@ -1,6 +1,6 @@
 Partlist
 
-Exported from aircat.brd at 09/05/2014 18:12:22
+Exported from aircat.brd at 09/05/2014 18:37:59
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
@@ -97,15 +97,17 @@ DIN3                                         TP10SQ                    testpad  
 DIN4                                         TP10SQ                    testpad                        (0.3 0.44375)         MR180
 DOUT1                                        TP10SQ                    testpad                        (0.33125 -0.99375)    R0
 DOUT2                                        TP10SQ                    testpad                        (-0.45625 0.31875)    MR0
+DOUT2(NC) TPTP10SQ                           TP10SQ                    testpad                        (0.28125 -0.99375)    R0
 DOUT3                                        TP10SQ                    testpad                        (-0.3875 0.31875)     MR0
+DOUT3(NC) TPTP10SQ                           TP10SQ                    testpad                        (0.23125 -0.99375)    R0
 GND@1     TPTP10SQ                           TP10SQ                    testpad                        (-0.01875 -0.99375)   R0
-GND@2     TPTP10SQ                           TP10SQ                    testpad                        (0.43125 -0.99375)    R0
+GND@2     TPTP10SQ                           TP10SQ                    testpad                        (0.63125 -0.99375)    R0
 LRCKAD/DA                                    TP10SQ                    testpad                        (0.13125 -0.99375)    R0
 MC                                           TP10SQ                    testpad                        (0.48125 -0.99375)    R0
 MDI                                          TP10SQ                    testpad                        (0.53125 -0.99375)    R0
 MDO                                          TP10SQ                    testpad                        (0.58125 -0.99375)    R0
 MODE      0 Ohm                              R0603                     rcl                            (0.35 0.6)            MR0
-MS                                           TP10SQ                    testpad                        (0.63125 -0.99375)    R0
+MS                                           TP10SQ                    testpad                        (0.43125 -0.99375)    R0
 OVF       TPTP10SQ                           TP10SQ                    testpad                        (-0.39375 0.479)      MR0
 POWER                                        SML0603                   led                            (-0.9 0.65)           R270
 R1        7.5k                               R0603                     rcl                            (0.8125 -0.20625)     R270

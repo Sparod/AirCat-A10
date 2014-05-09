@@ -1,10 +1,12 @@
 Pinlist
 
-Exported from aircat.brd at 08/05/2014 02:47:51
+Exported from aircat.brd at 09/05/2014 18:38:06
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
 Part     Pad      Net
+
+BCKAD/DA TP       BCKAD/DA
 
 C1       1        VOUT1+
          2        N$2
@@ -249,10 +251,10 @@ CON1     3-1               *** unconnected ***
          3-15              *** unconnected ***
          3-16     DIN1
          3-17              *** unconnected ***
-         3-18              *** unconnected ***
+         3-18     DOUT3(NC)
          3-19              *** unconnected ***
          3-2      GND
-         3-20              *** unconnected ***
+         3-20     DOUT2(NC)
          3-21              *** unconnected ***
          3-22     DOUT1
          3-23              *** unconnected ***
@@ -348,18 +350,40 @@ CON3     1        GND
 CON4     1        GND
          2        SPDIF_DO
 
+DIN1     TP       DIN1
+
 DIN2     TP       DIN2
 
 DIN3     TP       DIN3
 
 DIN4     TP       DIN4
 
+DOUT1    TP       DOUT1
+
 DOUT2    TP       DOUT2
+
+DOUT2(NC) TP       DOUT2(NC)
 
 DOUT3    TP       DOUT3
 
+DOUT3(NC) TP       DOUT3(NC)
+
+GND@1    TP       GND
+
+GND@2    TP       GND
+
+LRCKAD/DA TP       LRCKAD/DA
+
+MC       TP       MC
+
+MDI      TP       MDI
+
+MDO      TP       MDO
+
 MODE     1        +3V3
          2        +3V3
+
+MS       TP       MS
 
 OVF      TP       OVF
 
@@ -569,6 +593,10 @@ R67      1        GND
 
 RST      1        +3V3
          2        +3V3
+
+SCKI     TP       SCKI
+
+SPDIF_DO TP       SPDIF_DO
 
 TP1      TP       -5V
 

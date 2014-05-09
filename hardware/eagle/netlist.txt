@@ -1,6 +1,6 @@
 Netlist
 
-Exported from aircat.brd at 09/05/2014 18:12:15
+Exported from aircat.brd at 09/05/2014 18:37:53
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
@@ -251,8 +251,14 @@ DOUT1    CON1     3-22
 DOUT2    DOUT2    TP
          U1       9
 
+DOUT2(NC) CON1     3-20
+         DOUT2(NC) TP
+
 DOUT3    DOUT3    TP
          U1       10
+
+DOUT3(NC) CON1     3-18
+         DOUT3(NC) TP
 
 GND      C10      2
          C15      2
