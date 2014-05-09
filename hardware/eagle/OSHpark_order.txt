@@ -1,6 +1,6 @@
 Submitted on 10 May 2014 00:03.
 
-Detected 2 layer board of 2.11x2.36 inches (53x60mm). $24.75 for three. (~17.85€)
+Detected 2 layer board of 2.11x2.36 inches (53x60mm). $24.75 for three. (~18,56€)
 
 Top image: http://uploads.oshpark.com/uploads/project/top_image/8DkhQnbt/i.png
 Bottom image: http://uploads.oshpark.com/uploads/project/bottom_image/8DkhQnbt/i.png
