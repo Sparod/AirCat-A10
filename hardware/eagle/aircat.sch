@@ -13964,6 +13964,78 @@ Source: www.kingbright.com</description>
 <attribute name="OC_FARNELL" value="1711638"/>
 </part>
 <part name="CON4" library="con-lstb-without-pin-numbers" deviceset="MA02-1" device="" value="SPDIF_OUT"/>
+<part name="DOUT1" library="testpad" deviceset="TP" device="TP10SQ" value="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
+<part name="MDO" library="testpad" deviceset="TP" device="TP10SQ" value="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
+<part name="MDI" library="testpad" deviceset="TP" device="TP10SQ" value="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
+<part name="SCKI" library="testpad" deviceset="TP" device="TP10SQ" value="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
+<part name="MC" library="testpad" deviceset="TP" device="TP10SQ" value="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
+<part name="MS" library="testpad" deviceset="TP" device="TP10SQ" value="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
+<part name="BCKAD/DA" library="testpad" deviceset="TP" device="TP10SQ" value="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
+<part name="LRCKAD/DA" library="testpad" deviceset="TP" device="TP10SQ" value="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
+<part name="DIN1" library="testpad" deviceset="TP" device="TP10SQ" value="">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
+<part name="SPDIF_DO" library="testpad" deviceset="TP" device="TP10SQ" value="TPTP10SQ">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
+<part name="GND@1" library="testpad" deviceset="TP" device="TP10SQ" value="TPTP10SQ">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
+<part name="GND@2" library="testpad" deviceset="TP" device="TP10SQ" value="TPTP10SQ">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -14817,45 +14889,59 @@ Source: www.kingbright.com</description>
 <attribute name="MPN" x="269.24" y="-124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND34" gate="1" x="269.24" y="-134.62"/>
-<instance part="OVF" gate="G$1" x="-152.4" y="73.66" rot="R270">
-<attribute name="OC_FARNELL" x="-152.4" y="73.66" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-152.4" y="73.66" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-152.4" y="73.66" size="1.778" layer="96" display="off"/>
+<instance part="OVF" gate="G$1" x="-154.94" y="73.66" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" x="-154.94" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-154.94" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-154.94" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-154.178" y="72.644" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-156.21" y="72.39" size="1.778" layer="97" rot="R270"/>
 </instance>
 <instance part="RST" gate="G$1" x="-266.7" y="73.66">
 <attribute name="OC_FARNELL" x="-266.7" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-266.7" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-266.7" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="ZERO" gate="G$1" x="-149.86" y="76.2" rot="R270">
-<attribute name="OC_FARNELL" x="-149.86" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-149.86" y="76.2" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-149.86" y="76.2" size="1.778" layer="96" display="off"/>
+<instance part="ZERO" gate="G$1" x="-154.94" y="76.2" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" x="-154.94" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-154.94" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-154.94" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-154.432" y="75.184" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-156.21" y="74.93" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="DOUT2" gate="G$1" x="-144.78" y="81.28" rot="R270">
-<attribute name="OC_FARNELL" x="-144.78" y="81.28" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-144.78" y="81.28" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-144.78" y="81.28" size="1.778" layer="96" display="off"/>
+<instance part="DOUT2" gate="G$1" x="-154.94" y="81.28" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" x="-154.94" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-154.94" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-154.94" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-154.432" y="80.264" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-156.21" y="80.01" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="DOUT3" gate="G$1" x="-147.32" y="78.74" rot="R270">
-<attribute name="OC_FARNELL" x="-147.32" y="78.74" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-147.32" y="78.74" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-147.32" y="78.74" size="1.778" layer="96" display="off"/>
+<instance part="DOUT3" gate="G$1" x="-154.94" y="78.74" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" x="-154.94" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-154.94" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-154.94" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-154.432" y="77.724" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-156.21" y="77.47" size="1.778" layer="97" rot="R270"/>
 </instance>
-<instance part="DIN2" gate="G$1" x="-243.84" y="91.44" rot="R90">
+<instance part="DIN2" gate="G$1" x="-243.84" y="91.44" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" x="-243.84" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-243.84" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-243.84" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-244.094" y="92.456" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="-242.57" y="92.71" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="DIN3" gate="G$1" x="-246.38" y="88.9" rot="R90">
-<attribute name="OC_FARNELL" x="-246.38" y="88.9" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-246.38" y="88.9" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-246.38" y="88.9" size="1.778" layer="96" display="off"/>
+<instance part="DIN3" gate="G$1" x="-243.84" y="88.9" smashed="yes" rot="R90">
+<attribute name="OC_FARNELL" x="-243.84" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-243.84" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-243.84" y="88.9" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-244.094" y="89.662" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="-242.57" y="90.17" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="DIN4" gate="G$1" x="-248.92" y="86.36" rot="R90">
-<attribute name="OC_FARNELL" x="-248.92" y="86.36" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-248.92" y="86.36" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-248.92" y="86.36" size="1.778" layer="96" display="off"/>
+<instance part="DIN4" gate="G$1" x="-243.84" y="86.36" smashed="yes" rot="R90">
+<attribute name="OC_FARNELL" x="-243.84" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-243.84" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-243.84" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-244.094" y="87.122" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="-242.57" y="87.63" size="1.778" layer="97" rot="R90"/>
 </instance>
 <instance part="MODE" gate="G$1" x="-269.24" y="86.36">
 <attribute name="OC_FARNELL" x="-269.24" y="86.36" size="1.778" layer="96" display="off"/>
@@ -14878,6 +14964,86 @@ Source: www.kingbright.com</description>
 <attribute name="MPN" x="-256.54" y="-111.76" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="CON4" gate="G$1" x="-152.4" y="-5.08"/>
+<instance part="DOUT1" gate="G$1" x="-154.94" y="83.82" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" x="-154.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-154.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-154.94" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-154.432" y="82.804" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-156.21" y="82.55" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="MDO" gate="G$1" x="-149.86" y="132.08" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" x="-149.86" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-149.86" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-149.86" y="132.08" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-149.352" y="131.318" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-151.13" y="130.81" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="MDI" gate="G$1" x="-149.86" y="134.62" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" x="-149.86" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-149.86" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-149.86" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-149.352" y="133.858" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-151.13" y="133.35" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="SCKI" gate="G$1" x="-243.84" y="83.82" smashed="yes" rot="R90">
+<attribute name="OC_FARNELL" x="-243.84" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-243.84" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-243.84" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-244.348" y="84.582" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="-242.57" y="85.09" size="1.778" layer="97" rot="R90"/>
+</instance>
+<instance part="MC" gate="G$1" x="-243.84" y="81.28" smashed="yes" rot="R90">
+<attribute name="OC_FARNELL" x="-243.84" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-243.84" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-243.84" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-244.348" y="82.296" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="-242.57" y="82.55" size="1.778" layer="97" rot="R90"/>
+</instance>
+<instance part="MS" gate="G$1" x="-243.84" y="78.74" smashed="yes" rot="R90">
+<attribute name="OC_FARNELL" x="-246.38" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-246.38" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-246.38" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-244.094" y="79.502" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="-242.57" y="80.01" size="1.778" layer="97" rot="R90"/>
+</instance>
+<instance part="BCKAD/DA" gate="G$1" x="-149.86" y="142.24" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" x="-149.86" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-149.86" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-149.86" y="142.24" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-149.352" y="141.478" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-151.13" y="140.97" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="LRCKAD/DA" gate="G$1" x="-149.86" y="144.78" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" x="-149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-149.86" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-149.352" y="144.018" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-151.13" y="143.51" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="DIN1" gate="G$1" x="-243.84" y="93.98" smashed="yes" rot="R90">
+<attribute name="OC_FARNELL" x="-243.84" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-243.84" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-243.84" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-244.094" y="94.996" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="-242.57" y="95.25" size="1.778" layer="97" rot="R90"/>
+</instance>
+<instance part="SPDIF_DO" gate="G$1" x="-157.48" y="-22.86" smashed="yes" rot="R270">
+<attribute name="OC_FARNELL" x="-157.48" y="-22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-157.48" y="-22.86" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-157.48" y="-22.86" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-156.718" y="-23.876" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="-158.75" y="-24.13" size="1.778" layer="97" rot="R270"/>
+</instance>
+<instance part="GND@1" gate="G$1" x="-228.6" y="-114.3">
+<attribute name="OC_FARNELL" x="-228.6" y="-114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="-228.6" y="-114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="-228.6" y="-114.3" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="GND@2" gate="G$1" x="-238.76" y="-114.3">
+<attribute name="OC_FARNELL" x="-238.76" y="-114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="-238.76" y="-114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="-238.76" y="-114.3" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16167,6 +16333,16 @@ Source: www.kingbright.com</description>
 <wire x1="-147.32" y1="-5.08" x2="-144.78" y2="-5.08" width="0.1524" layer="91"/>
 <label x="-144.78" y="-5.08" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="GND@1" gate="G$1" pin="TP"/>
+<wire x1="-228.6" y1="-116.84" x2="-228.6" y2="-119.38" width="0.1524" layer="91"/>
+<label x="-228.6" y="-119.38" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="GND@2" gate="G$1" pin="TP"/>
+<wire x1="-238.76" y1="-116.84" x2="-238.76" y2="-119.38" width="0.1524" layer="91"/>
+<label x="-238.76" y="-119.38" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -16912,6 +17088,10 @@ Source: www.kingbright.com</description>
 <wire x1="-172.72" y1="137.16" x2="-170.18" y2="137.16" width="0.1524" layer="91"/>
 <label x="-170.18" y="137.16" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="BCKAD/DA" gate="G$1" pin="TP"/>
+<wire x1="-152.4" y1="142.24" x2="-154.94" y2="142.24" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DIN3" class="0">
 <segment>
@@ -16921,7 +17101,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="DIN3" gate="G$1" pin="TP"/>
-<wire x1="-243.84" y1="88.9" x2="-238.76" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="88.9" x2="-238.76" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIN4" class="0">
@@ -16932,7 +17112,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="DIN4" gate="G$1" pin="TP"/>
-<wire x1="-246.38" y1="86.36" x2="-238.76" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-241.3" y1="86.36" x2="-238.76" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIN1" class="0">
@@ -16947,6 +17127,10 @@ Source: www.kingbright.com</description>
 <wire x1="-228.6" y1="93.98" x2="-231.14" y2="93.98" width="0.1524" layer="91"/>
 <label x="-231.14" y="93.98" size="1.778" layer="95" rot="R180"/>
 </segment>
+<segment>
+<pinref part="DIN1" gate="G$1" pin="TP"/>
+<wire x1="-241.3" y1="93.98" x2="-238.76" y2="93.98" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DOUT1" class="0">
 <segment>
@@ -16960,6 +17144,10 @@ Source: www.kingbright.com</description>
 <wire x1="-172.72" y1="83.82" x2="-170.18" y2="83.82" width="0.1524" layer="91"/>
 <label x="-170.18" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="DOUT1" gate="G$1" pin="TP"/>
+<wire x1="-160.02" y1="83.82" x2="-157.48" y2="83.82" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SCKI" class="0">
 <segment>
@@ -16972,6 +17160,10 @@ Source: www.kingbright.com</description>
 <pinref part="U1" gate="A" pin="SCKI"/>
 <wire x1="-228.6" y1="83.82" x2="-231.14" y2="83.82" width="0.1524" layer="91"/>
 <label x="-231.14" y="83.82" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="SCKI" gate="G$1" pin="TP"/>
+<wire x1="-241.3" y1="83.82" x2="-238.76" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LRCKAD/DA" class="0">
@@ -16991,6 +17183,10 @@ Source: www.kingbright.com</description>
 <wire x1="-172.72" y1="139.7" x2="-170.18" y2="139.7" width="0.1524" layer="91"/>
 <label x="-170.18" y="139.7" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="LRCKAD/DA" gate="G$1" pin="TP"/>
+<wire x1="-152.4" y1="144.78" x2="-154.94" y2="144.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="DOUT2" class="0">
 <segment>
@@ -17000,7 +17196,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="DOUT2" gate="G$1" pin="TP"/>
-<wire x1="-147.32" y1="81.28" x2="-160.02" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="81.28" x2="-160.02" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DOUT3" class="0">
@@ -17011,7 +17207,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="DOUT3" gate="G$1" pin="TP"/>
-<wire x1="-149.86" y1="78.74" x2="-160.02" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="78.74" x2="-160.02" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ZERO" class="0">
@@ -17022,7 +17218,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="ZERO" gate="G$1" pin="TP"/>
-<wire x1="-152.4" y1="76.2" x2="-160.02" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="76.2" x2="-160.02" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OVF" class="0">
@@ -17033,7 +17229,7 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="OVF" gate="G$1" pin="TP"/>
-<wire x1="-154.94" y1="73.66" x2="-160.02" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="73.66" x2="-160.02" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MDI" class="0">
@@ -17047,6 +17243,10 @@ Source: www.kingbright.com</description>
 <wire x1="-182.88" y1="-15.24" x2="-180.34" y2="-15.24" width="0.1524" layer="91"/>
 <label x="-180.34" y="-15.24" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="MDI" gate="G$1" pin="TP"/>
+<wire x1="-152.4" y1="134.62" x2="-154.94" y2="134.62" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MDO" class="0">
 <segment>
@@ -17058,6 +17258,10 @@ Source: www.kingbright.com</description>
 <pinref part="CON1" gate="_GPIO-3" pin="32"/>
 <wire x1="-182.88" y1="-12.7" x2="-180.34" y2="-12.7" width="0.1524" layer="91"/>
 <label x="-180.34" y="-12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MDO" gate="G$1" pin="TP"/>
+<wire x1="-152.4" y1="132.08" x2="-154.94" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MS" class="0">
@@ -17071,6 +17275,10 @@ Source: www.kingbright.com</description>
 <wire x1="-182.88" y1="-20.32" x2="-180.34" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-180.34" y="-20.32" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="MS" gate="G$1" pin="TP"/>
+<wire x1="-241.3" y1="78.74" x2="-238.76" y2="78.74" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="MC" class="0">
 <segment>
@@ -17082,6 +17290,10 @@ Source: www.kingbright.com</description>
 <pinref part="CON1" gate="_GPIO-3" pin="28"/>
 <wire x1="-182.88" y1="-17.78" x2="-180.34" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-180.34" y="-17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MC" gate="G$1" pin="TP"/>
+<wire x1="-241.3" y1="81.28" x2="-238.76" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -17101,6 +17313,10 @@ Source: www.kingbright.com</description>
 <pinref part="CON4" gate="G$1" pin="2"/>
 <wire x1="-147.32" y1="-2.54" x2="-144.78" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-144.78" y="-2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SPDIF_DO" gate="G$1" pin="TP"/>
+<wire x1="-160.02" y1="-22.86" x2="-162.56" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
