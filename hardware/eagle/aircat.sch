@@ -9922,6 +9922,33 @@ Sample size of the circuit board is shown in &lt;b&gt;Document&lt;/b&gt; layer.<
 <hole x="19.2405" y="-26.6065" drill="0.7"/>
 <hole x="-3.6195" y="26.7335" drill="0.7"/>
 <hole x="19.2405" y="26.7335" drill="0.7"/>
+<wire x1="-36.6395" y1="29.7815" x2="-24.5745" y2="29.7815" width="0.254" layer="37"/>
+<wire x1="-21.5265" y1="29.7815" x2="-19.7485" y2="29.7815" width="0.254" layer="37"/>
+<wire x1="-24.5745" y1="29.7815" x2="-21.5265" y2="29.7815" width="0.254" layer="37"/>
+<text x="-6.1595" y="23.6855" size="1.27" layer="38" font="vector" ratio="20" rot="MR0">GPIO-1</text>
+<text x="-6.1595" y="25.2095" size="0.4064" layer="38" font="vector" ratio="20" rot="MR0">YA-V36P-2X20-LF</text>
+<text x="-14.2875" y="-20.7645" size="1.27" layer="38" font="vector" ratio="20" rot="MR0">GPIO-2</text>
+<text x="-14.2875" y="-21.5265" size="0.4064" layer="38" font="vector" ratio="20" rot="MR0">YA-V36P-2X20-LF</text>
+<text x="-22.9235" y="15.1765" size="1.27" layer="38" font="vector" ratio="20" rot="MR270">GPIO-4</text>
+<text x="-24.4475" y="15.1765" size="0.4064" layer="38" font="vector" ratio="20" rot="MR270">YA-V36p-2X10-LF</text>
+<polygon width="0.127" layer="38">
+<vertex x="-26.035" y="17.145"/>
+<vertex x="-20.0025" y="17.145"/>
+<vertex x="-20.0025" y="29.5275"/>
+<vertex x="-26.035" y="29.5275"/>
+</polygon>
+<polygon width="0.127" layer="38">
+<vertex x="-12.3825" y="17.4625"/>
+<vertex x="-12.3825" y="23.495"/>
+<vertex x="12.7" y="23.495"/>
+<vertex x="12.7" y="17.4625"/>
+</polygon>
+<polygon width="0.127" layer="38">
+<vertex x="-12.3825" y="-23.1775"/>
+<vertex x="12.7" y="-23.1775"/>
+<vertex x="12.7" y="-17.145"/>
+<vertex x="-12.3825" y="-17.145"/>
+</polygon>
 </package>
 </packages>
 <symbols>
