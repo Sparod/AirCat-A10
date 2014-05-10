@@ -174,7 +174,7 @@
 <text x="10.95375" y="-24.60625" size="0.8" layer="25" font="vector" rot="R90" align="center-left">MS</text>
 <text x="13.49375" y="-24.60625" size="0.8" layer="25" font="vector" rot="R90" align="center-left">MDI</text>
 <text x="5.87375" y="-24.60625" size="0.8" layer="25" font="vector" rot="R90" align="center-left">DO.3</text>
-<text x="7.14375" y="-24.60625" size="0.8" layer="25" font="vector" rot="R90" align="center-left">D0.2</text>
+<text x="7.14375" y="-24.60625" size="0.8" layer="25" font="vector" rot="R90" align="center-left">DO.2</text>
 </plain>
 <libraries>
 <library name="pcm3168">
@@ -5641,7 +5641,8 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="POWER" pad="A"/>
 <wire x1="-22.86" y1="14.49" x2="-24.60625" y2="14.49" width="0.2032" layer="1"/>
 <via x="-16.1925" y="24.765" extent="1-16" drill="0.5"/>
-<wire x1="-16.1925" y1="24.765" x2="-16.19" y2="24.85005" width="0" layer="19" extent="1-16"/>
+<wire x1="-16.1925" y1="24.765" x2="-16.19" y2="24.765" width="0.2032" layer="16"/>
+<wire x1="-16.19" y1="24.765" x2="-16.19" y2="24.85005" width="0.2032" layer="16"/>
 </signal>
 <signal name="+3V3">
 <contactref element="U1" pad="46"/>
